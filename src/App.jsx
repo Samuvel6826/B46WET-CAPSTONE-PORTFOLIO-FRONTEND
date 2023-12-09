@@ -5,16 +5,32 @@ import About from './components/about-Dir/About'
 import Projects from './components/projects-Dir/Projects'
 import Contact from './components/contact-Dir/Contact'
 import Footer from './components/footer-Dir/Footer'
+import {jsPDF} from 'jspdf';
 
 function App() {
+  const generatePDF = () => {
+
+    const report = new jsPDF({
+      orientation: 'l',
+      unit: 'pt',
+      format: 'a4',
+      compress: "true",
+      putOnlyUsedFonts:true
+    });
+
+    report.html(document.querySelector('#report')).then(() => {
+        report.save('report.pdf');
+    });}
+
   return <>
-  <div className="app">
+  <div className="app" id="report">
     <Navbar/>
     <Intro/>
     <About/>
     <Projects/>
     <Contact/>
     <Footer/>
+    <button onClick={generatePDF} type="button">Export PDF</button>
     {/* <BrowserRouter>
       <Routes>
         <Route path='/navbar' element={<Navbar/>}/>

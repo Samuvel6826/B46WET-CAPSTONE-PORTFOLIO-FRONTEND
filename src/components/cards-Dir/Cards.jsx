@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import './cards.css'
 
-function Cards({imgUrl, name, description}) {
+function Cards({imgUrl, name, description, siteLink}) {
   return <>
      <Card className='cardContainer'>
       <Card.Img variant="top" src={imgUrl} className='cardImg'/>
@@ -12,7 +12,7 @@ function Cards({imgUrl, name, description}) {
         <Card.Text className='cardDesc'>
           {description}
         </Card.Text>
-        <Button variant="primary" className='cardBtn'>Go somewhere</Button>
+        <a href={siteLink} target='blank'><Button variant="primary" className='cardBtn'>Go somewhere</Button></a>
       </Card.Body>
     </Card>
   </>

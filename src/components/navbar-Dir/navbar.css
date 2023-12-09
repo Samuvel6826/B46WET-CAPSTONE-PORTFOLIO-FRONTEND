@@ -6,6 +6,7 @@
     margin: 0 auto;
     padding: 1rem 1rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     position: sticky;
@@ -15,8 +16,8 @@
 
 .logo {
     object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    height: 4rem;
+    width: 5rem;
 }
 
 .desktopMenuListItem {

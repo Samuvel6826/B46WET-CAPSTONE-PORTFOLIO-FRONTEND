@@ -13,7 +13,7 @@ function Intro() {
         <p className="introPara">
         I am a skilled and passionate web designer with experience in creating <br/>visually appealing and user-friendly websites.
         </p>
-        <Link><button className="btn"><img src={btnImg} alt="Hire Me" className='btnImg'/>Hire Me</button></Link>
+        <a href='https://docs.google.com/document/d/1B7PID7DPV9e5WarIMxmwLvE2mVjsm3tx90pSsE5WkbM/edit' target='blank'><button className="btn">Resume</button></a>
     </div>
     <img src={bg} alt="Profile" className="bg" />
   </section>

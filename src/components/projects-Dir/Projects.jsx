@@ -35,6 +35,7 @@ function Projects() {
                     imgUrl={e.imgUrl}
                     name={e.name}
                     description={e.description}
+                    siteLink={e.siteLink}
                     />
                   })
                 }

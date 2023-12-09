@@ -13,3 +13,12 @@ body {
     overflow: hidden;
     overflow-y: scroll;
 }
+
+button, a, Link {
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid grey;
+}
