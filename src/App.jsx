@@ -4,7 +4,6 @@ import Intro from './components/intro-Dir/Intro'
 import About from './components/about-Dir/About'
 import Projects from './components/projects-Dir/Projects'
 import Contact from './components/contact-Dir/Contact'
-import Footer from './components/footer-Dir/Footer'
 import {jsPDF} from 'jspdf';
 
 function App() {
@@ -29,7 +28,6 @@ function App() {
     <About/>
     <Projects/>
     <Contact/>
-    <Footer/>
     {/* <button onClick={generatePDF} type="button">Export PDF</button> */}
     {/* <BrowserRouter>
       <Routes>

@@ -83,18 +83,18 @@
 }
 
 @media screen and (max-width : 720px) {
-    /* .navbar {
-        background: transparent;
-    } */
+    .navbar {
+        height: 4rem;
+    }
     .logo {
         display: none;
     }
-    .mobMenu {
+    /* .mobMenu {
         display: flex;
     }
     .desktopMenu {
         display: none;
-    }
+    } */
     .desktopMenuBtn {
         display: none;
     }

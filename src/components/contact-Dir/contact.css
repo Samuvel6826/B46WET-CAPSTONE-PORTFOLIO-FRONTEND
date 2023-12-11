@@ -5,17 +5,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .contactPageTitle {
     font-size: 3rem;
+    margin: 1.5rem 1rem 1rem 1rem;
 }
 
 .contactPageDesc {
     font-size: medium;
-    padding: 1rem;
     font-weight: 300;
+    margin-bottom: 1rem;
 }
 
 .contactForm {
@@ -58,4 +58,15 @@
     height: 3rem;
     width: 3rem;
     margin: 0 0.75rem;
+}
+
+.footer {
+    width: 100vw;
+    height: 4rem;
+    background: rgb(40, 40, 40);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: medium;
 }

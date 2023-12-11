@@ -1,14 +1,11 @@
 #projects {
-    margin: 0 auto;
-    height: calc (100vh - 5rem);
+    height: auto;
     width: 100vw;
-    max-width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 1rem 1rem;
 }
 
 .projectsTitle {
@@ -40,7 +37,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:585px) {
+@media screen and (max-width:600px) {
     .project {
         height: 48vw;
     }

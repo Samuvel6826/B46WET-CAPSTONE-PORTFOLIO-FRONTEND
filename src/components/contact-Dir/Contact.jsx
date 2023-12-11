@@ -1,10 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css'
-// import FacebookIcon from '../../assets/facebook-icon.png'
-// import TwitterIcon from '../../assets/twitter.png'
-// import YoutubeIcon from '../../assets/youtube.png'
-// import InstagramIcon from '../../assets/instagram.png'
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 
@@ -45,6 +41,7 @@ function Contact() {
       <span className="contactPageDesc">
             Please fill out the form below to discuss any work opportunities.
       </span>
+
       <form id='contactForm' className="contactForm" ref={form} onSubmit={formikQuery.handleSubmit}>
 
         <input 
@@ -101,7 +98,11 @@ function Contact() {
         </div>
 
       </form>
+
   </section>
+  <footer className="footer">
+        Copyright &#169; 2023 Samuvel Antony. All right received.
+    </footer>
   </>
 }
 

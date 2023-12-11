@@ -48,6 +48,9 @@
 }
 
 @media screen and (max-width : 600px) {
+    #about {
+        height: calc(100vh - 15.5rem);
+    }
     .aboutDesc {
         font-size: 1rem;
     }
