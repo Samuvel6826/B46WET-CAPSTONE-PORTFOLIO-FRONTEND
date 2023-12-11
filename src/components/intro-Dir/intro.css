@@ -50,8 +50,12 @@
 }
 
 @media screen and (max-width: 600px) {
+    /* #intro {
+        height: 100vh
+      } */
     .bg {
-    right: -10vw;
+        left: -40vw;
+        top: -9vh;
     }
     .introContent {
     padding-top: 5em;
@@ -62,12 +66,5 @@
     }
     .introPara {
         font-size: large;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .bg {
-        left: -40vw;
-        top: -9vh;
     }
 }

@@ -28,8 +28,6 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 100vw;
-    max-width: 95%;
-    margin: auto;
 }
 
 .seeBtn {

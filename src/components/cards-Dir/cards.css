@@ -62,15 +62,18 @@
        justify-content: space-between;
     }
     .cardTitle {
-        font-size: 0.8rem;
-        font-weight: 600;
+        font-size: 1rem;
+        font-weight: 500;
     }
     .cardDesc {
-        font-size: 0.5rem;
+        font-size: 0.7rem;
         font-weight: 300;
     }
     .cardBtn {
         height: 1rem;
         font-size: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
