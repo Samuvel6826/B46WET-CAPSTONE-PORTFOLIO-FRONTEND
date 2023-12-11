@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
 }
 
 .cardImg {
@@ -15,6 +16,7 @@
     height: 100%;
     width: 55%;
     border: 1px solid black;
+    border: none;
 }
 
 .cardBody {
@@ -26,6 +28,18 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border: none;
+}
+
+.cardTitle {
+font-size: 2.2rem;
+font-weight: 600;
+margin-bottom: 15px;
+}
+
+.cardDesc {
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .cardBtn {

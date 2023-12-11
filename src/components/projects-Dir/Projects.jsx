@@ -40,7 +40,7 @@ function Projects() {
                   })
                 }
     </div>
-  <button className="seeBtn">See More</button>
+  {/* <button className="seeBtn">See More</button> */}
   </section>
   </>
 }

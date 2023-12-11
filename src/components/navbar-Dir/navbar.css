@@ -18,6 +18,7 @@
     object-fit: cover;
     height: 4rem;
     width: 5rem;
+    background-color: rgb(255, 255, 255);
 }
 
 .desktopMenuListItem {
@@ -26,7 +27,7 @@
 }
 
 .desktopMenuListItem:hover {
-    color: yellow;
+    color: #ffff00;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
 }

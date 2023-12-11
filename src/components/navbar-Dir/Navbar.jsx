@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
-// import Logo from '../../assets/logo.png'
+import Logo from '../../assets/logo.png'
 import contactImg from '../../assets/contact.png'
 import {Link} from 'react-scroll'
 import menu from '../../assets/menu.png'
@@ -22,7 +22,7 @@ function Navbar() {
 
   return <>
     <nav className="navbar">
-        <img src="https://i.pinimg.com/564x/73/cb/e5/73cbe56b7093e62810e8b673f210104e.jpg" alt="Logo" className='logo'/>
+        <img src={Logo} alt="Logo" className='logo'/>
         <div className="desktopMenu">
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
             <Link activeClass='active' to='about' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">About</Link>
