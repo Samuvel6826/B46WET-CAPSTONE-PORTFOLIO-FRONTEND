@@ -30,7 +30,7 @@ function App() {
     <Projects/>
     <Contact/>
     <Footer/>
-    <button onClick={generatePDF} type="button">Export PDF</button>
+    {/* <button onClick={generatePDF} type="button">Export PDF</button> */}
     {/* <BrowserRouter>
       <Routes>
         <Route path='/navbar' element={<Navbar/>}/>

@@ -1,9 +1,6 @@
 #intro {
-  height: calc (100vh - 5rem);
+  height: calc(100vh - 5rem);
   width: 100vw;
-  max-width: 98%;
-  padding: 1rem 1rem;
-  margin: 0 auto;
   overflow: hidden;
   position: relative;
 }
@@ -57,7 +54,6 @@
     right: -10vw;
     }
     .introContent {
-    /* font-size: 10vw; */
     padding-top: 5em;
     }
     .hello {

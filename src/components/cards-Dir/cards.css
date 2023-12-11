@@ -32,9 +32,9 @@
 }
 
 .cardTitle {
-font-size: 2.2rem;
-font-weight: 600;
-margin-bottom: 15px;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 .cardDesc {
@@ -45,4 +45,32 @@ margin-bottom: 15px;
 .cardBtn {
     background: #000;
     color: aliceblue;
+}
+
+@media screen and (max-width:600px) {
+    .cardImg {
+        height: 50%;
+        width: 100%;
+    }
+    .cardBody {
+        height: 50%;
+        width: 100%;
+        padding: 1rem;
+    }
+    .cardContainer {
+       flex-direction: column;
+       justify-content: space-between;
+    }
+    .cardTitle {
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    .cardDesc {
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+    .cardBtn {
+        height: 1rem;
+        font-size: 0.5rem;
+    }
 }

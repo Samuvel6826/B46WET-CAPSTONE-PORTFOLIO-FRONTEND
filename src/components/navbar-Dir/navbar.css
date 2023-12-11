@@ -2,8 +2,6 @@
     background: rgb(30, 30, 30);
     height: 5rem;
     width: 100vw;
-    max-width: 98%;
-    margin: 0 auto;
     padding: 1rem 1rem;
     display: flex;
     flex-wrap: wrap;
