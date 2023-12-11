@@ -9,6 +9,12 @@ import { jsPDF } from "jspdf";
 function Navbar() {
   const [showMenu,setShowMenu] = useState(false)
 
+  const generatePdfPrompt = () => {
+  if (confirm("After accepted wait for a minute for the file to download") == true) {
+    generatePdf()
+  } 
+}
+
   const generatePdf = () => {
     const doc = new jsPDF({
       orientation: 'l',
@@ -34,7 +40,7 @@ function Navbar() {
         </button>
 
         <div>
-          <button onClick={generatePdf} className="desktopMenuBtn">Export to PDF</button>
+          <button onClick={generatePdfPrompt} className="desktopMenuBtn">Export to PDF</button>
         </div>
 
         <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
