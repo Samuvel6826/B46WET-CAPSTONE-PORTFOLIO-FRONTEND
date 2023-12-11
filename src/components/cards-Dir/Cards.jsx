@@ -12,7 +12,7 @@ function Cards({imgUrl, name, description, siteLink}) {
         <Card.Text className='cardDesc'>
           {description}
         </Card.Text>
-        <a href={siteLink} target='blank'><Button variant="primary" className='cardBtn'>Go somewhere</Button></a>
+        <a href={siteLink} target='blank'><Button variant="primary" className='cardBtn'>Live Demo</Button></a>
       </Card.Body>
     </Card>
   </>

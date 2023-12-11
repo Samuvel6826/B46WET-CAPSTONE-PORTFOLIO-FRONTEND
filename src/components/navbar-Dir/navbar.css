@@ -84,6 +84,12 @@
 }
 
 @media screen and (max-width : 720px) {
+    .navbar {
+        background: transparent;
+    }
+    .logo {
+        display: none;
+    }
     .mobMenu {
         display: flex;
     }
