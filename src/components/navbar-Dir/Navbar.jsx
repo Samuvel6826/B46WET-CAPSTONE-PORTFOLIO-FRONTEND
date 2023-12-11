@@ -29,9 +29,7 @@ function Navbar() {
             <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Projects</Link>
             <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">Contact</Link>
         </div>
-        <button className="desktopMenuBtn" onClick={()=>{
-          document.getElementById('contact').scrollIntoView({behavior: 'smooth'})
-        }}>
+        <button className="desktopMenuBtn" onClick={()=>{document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}}>
             <img src={contactImg} alt="Contact Image" className="desktopMenuImg" />Contact Me
         </button>
 
