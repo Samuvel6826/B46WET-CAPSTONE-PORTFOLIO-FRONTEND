@@ -84,16 +84,16 @@ function Contact() {
 
         <div className="links">
           
-          <a href="https://www.instagram.com/mr_fun_factory_24/"><img width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="instagram-new"/></a>
+            <a href="https://www.instagram.com/mr_fun_factory_24/" target='blank'><img width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="instagram-new"/></a>
 
-          <a href="https://www.linkedin.com/in/samuvelantony/"><img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a>
+            <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a>
 
-          <a href="https://www.facebook.com/samuvel68"><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new" className="link"/></a>
+            <a href="https://www.facebook.com/samuvel68" target='blank'><img width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="facebook-new" className="link"/></a>
 
-          <a href="https://twitter.com/samuvel6826"><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
+            <a href="https://twitter.com/samuvel6826" target='blank'><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
 
-          
-          <a aria-label="Chat on WhatsApp" href="https://wa.me/+919043251797?text=Hey%20Samuvel"><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
+            
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
 
         </div>
 

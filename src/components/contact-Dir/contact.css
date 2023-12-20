@@ -44,20 +44,16 @@
     background: white;
     border: none;
     border-radius: 0.5rem;
-    margin: 1rem;
+    margin: 1.2rem;
     padding: 0.75rem 3.5rem;
 }
 
 .links {
+    width: 20vw;
+    max-width: 30rem;
     display: flex;
     flex-wrap: wrap;
-}
-
-.link {
-    object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin: 0 0.75rem;
+    justify-content: space-between;
 }
 
 .footer {
