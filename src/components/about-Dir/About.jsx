@@ -5,7 +5,7 @@ function About() {
   return <>
       <section id="about">
         <h1 className="aboutTitle">About/Skills</h1>
-        <div className="container">
+        <div className="aboutContainer">
         <h2 className="aboutDesc">
         I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, Javascript and mentioned below tech stack...
         </h2>

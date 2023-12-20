@@ -1,5 +1,5 @@
 #contact {
-    height: calc(100vh - 7rem);
+    height: calc(100vh - 9rem);
     width: 100vw;
     text-align: center;
     display: flex;
@@ -9,7 +9,7 @@
 
 .contactPageTitle {
     font-size: 3rem;
-    margin: 1.5rem 1rem 1rem 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .contactPageDesc {
