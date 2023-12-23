@@ -3,6 +3,9 @@
   width: 100vw;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
   
 .bg {
@@ -49,30 +52,39 @@
     font-size: 1.2rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
     #intro {
-        height: calc(100vh - 5rem)
+        height: calc(100vh - 4rem);
       }
     .bg {
-        left: -40vw;
-        top: -9vh;
-    }
-    .introText {
-        color: rgb(109, 193, 165);
+        left: -30vw;
     }
     .introContent {
-    padding-top: 6.5em;
-    width: 100vw;
+        padding-top: 6.5em;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100vw;
     }
     .hello {
-    font-size: 8vw;
-    color: black;
+        font-size: 8vw;
+        color: black;
+    }
+    .introName {
+        color: rgb(47, 0, 255);
+        font-size: 2.5rem;
+    }
+    .introText {
+        color: rgb(255, 0, 225);
+        font-size: 2rem;
     }
     .introPara {
         font-size: large;
     }
+    .minus {
+        display: none;
+    }
     .btn {
-        margin: 1rem 0;
+        margin: 0;
         padding: 0.2rem 1rem;
 
     }

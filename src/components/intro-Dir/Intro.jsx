@@ -10,7 +10,7 @@ function Intro() {
         <span className="hello">Hello,</span>
         <span className="introText">I'm <span className="introName">Samuvel</span><br/>MERN Stack Developer</span>
         <p className="introPara">
-        I am a skilled and passionate web designer with experience in creating <br/>visually appealing and user-friendly websites.
+        I am a skilled and passionate web designer with experience in creating <br className='minus'/>visually appealing and user-friendly websites.
         </p>
         <span><a href={samres} target='blank'><button className="btn">Resume</button></a></span>
     </div>

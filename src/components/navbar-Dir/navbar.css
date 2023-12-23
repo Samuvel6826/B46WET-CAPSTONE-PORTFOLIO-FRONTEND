@@ -92,12 +92,12 @@
     .logo {
         display: none;
     }
-    /* .mobMenu {
+    .mobMenu {
         display: flex;
     }
     .desktopMenu {
         display: none;
-    } */
+    }
     .desktopMenuBtn {
         display: none;
     }
