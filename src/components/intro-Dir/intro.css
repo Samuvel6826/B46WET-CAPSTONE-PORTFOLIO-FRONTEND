@@ -20,7 +20,7 @@
 .introContent {
     height: 100vh;
     width: 50vw;
-    padding: 2rem;
+    padding-left: 2rem;
     font-size: 3rem;
     font-weight: 700;
     display: flex;
@@ -60,22 +60,23 @@
         left: -30vw;
     }
     .introContent {
-        padding-top: 6.5em;
+        padding-top: 4.2em;
         padding-left: 1rem;
         padding-right: 1rem;
+        padding-bottom: 0;
         width: 100vw;
     }
     .hello {
-        font-size: 8vw;
+        font-size: 1.8rem;
         color: black;
     }
     .introName {
-        color: rgb(47, 0, 255);
-        font-size: 2.5rem;
+        color: rgb(249, 249, 249);
+        font-size: 2rem;
     }
     .introText {
-        color: rgb(255, 0, 225);
-        font-size: 2rem;
+        color: rgb(255, 0, 208);
+        font-size: 1.5rem;
     }
     .introPara {
         font-size: large;
