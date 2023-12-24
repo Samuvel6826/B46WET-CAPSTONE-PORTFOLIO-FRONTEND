@@ -1,8 +1,7 @@
-.navbar {
+#navbarr {
     background: rgb(30, 30, 30);
     height: 5rem;
     width: 100vw;
-    padding: 0 2rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -10,7 +9,8 @@
     position: sticky;
     top: 0;
     z-index: 3;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    padding: 0 4rem;
 }
 
 .logo {
@@ -24,6 +24,8 @@
 .desktopMenuListItem {
     margin: 1rem;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .desktopMenuListItem:hover {

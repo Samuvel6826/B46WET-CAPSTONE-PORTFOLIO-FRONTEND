@@ -6,15 +6,19 @@ import samres from '../../.././samResume.pdf'
 function Intro() {
   return <>
   <section id="intro">
-    <div className="introContent">
-        <span className="hello">Hello,</span>
-        <span className="introText">I'm <span className="introName">Samuvel</span><br/>MERN Stack Developer</span>
-        <p className="introPara">
-        I am a skilled and passionate web designer with experience in creating <br className='minus'/>visually appealing and user-friendly websites.
-        </p>
-        <span><a href={samres} target='blank'><button className="btn">Resume</button></a></span>
-    </div>
-    <img src={bg} alt="Profile" className="bg" />
+
+          <div className="introContent">
+            <span className="hello">Hello,</span>
+            <span className="introText">I'm <span className="introName">Samuvel</span><br/>MERN Stack Developer</span>
+            <p className="introPara">
+            I am a skilled and passionate web designer with experience in creating <br className='minus'/>visually appealing and user-friendly websites.
+            </p>
+            <span><a href={samres} target='blank'><button className="resumeBtn">Resume</button></a></span>
+          </div>
+     
+              <img src={bg} alt="Profile" className="bg" />
+      
+    
   </section>
   </>
 }

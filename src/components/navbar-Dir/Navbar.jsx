@@ -27,14 +27,14 @@ function Navbar() {
   };
 
   return <>
-    <nav className="navbar">
+    <nav id="navbarr">
         <img src={Logo} alt="Logo" className='logo'/>
         <div className="desktopMenu">
-            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
-            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-80} duration={500} className="desktopMenuListItem">Certificate</Link>
-            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-80} duration={500} className="desktopMenuListItem">About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-80} duration={500} className="desktopMenuListItem">Projects</Link>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-80} duration={500} className="desktopMenuListItem">Contact</Link>
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Home</Link>
+            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Certificate</Link>
+            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">About</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Projects</Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Contact</Link>
         </div>
         <button className="desktopMenuBtn" onClick={()=>{document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}}>
             <img src={contactImg} alt="Contact Image" className="desktopMenuImg" />Contact Me
@@ -46,11 +46,11 @@ function Navbar() {
 
         <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
         <div className="navMenu" style={{display : showMenu? 'flex' : 'none'}}>
-            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
-            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-60} duration={500} className="listItem">Certificate</Link>
-            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
+            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-60} duration={25} className="listItem">Certificate</Link>
+            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
         </div>
     </nav>
   </>
