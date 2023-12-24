@@ -46,11 +46,11 @@ function Navbar() {
 
         <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
         <div className="navMenu" style={{display : showMenu? 'flex' : 'none'}}>
-            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-70} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
-            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-70} duration={500} className="listItem">Certificate</Link>
-            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-70} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-70} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-70} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
+            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-60} duration={500} className="listItem">Certificate</Link>
+            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
+            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
+            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-60} duration={500} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
         </div>
     </nav>
   </>
