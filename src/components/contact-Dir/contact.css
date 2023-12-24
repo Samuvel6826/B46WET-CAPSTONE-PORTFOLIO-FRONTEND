@@ -49,10 +49,7 @@
 }
 
 .links {
-    width: 20vw;
-    max-width: 30rem;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -65,4 +62,30 @@
     justify-content: center;
     font-weight: 300;
     font-size: medium;
+}
+
+img {
+    margin: 5px;
+}
+
+@media screen and (max-width:720px) {
+    #contact {
+        height: calc(100vh - 6rem);
+    }
+    .contactPageTitle {
+        font-size: 1rem;
+        margin: 0.5rem 0;
+    }
+    .contactPageDesc {
+        font-size: small;
+        padding: 0 10px;
+        margin-bottom: 0.5rem;
+    }
+    .msg {
+        height: 100px;
+    }
+    .footer {
+        height: 2rem;
+        font-size: 0.8rem;
+    }
 }

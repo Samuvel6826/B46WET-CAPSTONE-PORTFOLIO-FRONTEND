@@ -37,8 +37,9 @@
     text-align: center;
 }
 
-@media screen and (max-width:600px) {
-    .project {
-        height: 48vw;
+@media screen and (max-width:720px) {
+    .projectsTitle {
+        margin-bottom: 0;
+        font-size: 1.5rem;
     }
 }

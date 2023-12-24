@@ -8,17 +8,18 @@
 }
 
 .certificateContainer {
-    background-color: rgb(225, 241, 255);
-    color: black;
     height: 43rem;
     width: 85%;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 720px) {
     #certificate {
-        height: calc(100vh - 15.5rem);
+        height: calc(100vh - 4rem);
+    }
+    .certificateContainer {
+        height: 20rem;
+        width: 30rem;
+        transform: rotate(90deg);
     }
 }
