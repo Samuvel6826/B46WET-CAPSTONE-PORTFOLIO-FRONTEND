@@ -5,16 +5,18 @@ import './cards.css'
 
 function Cards({imgUrl, name, description, siteLink}) {
   return <>
-     <Card className='cardContainer'>
-      <Card.Img variant="top" src={imgUrl} className='cardImg'/>
-      <Card.Body className='cardBody'>
-        <Card.Title className='cardTitle'>{name}</Card.Title>
-        <Card.Text className='cardDesc'>
-          {description}
-        </Card.Text>
-        <a href={siteLink} target='blank'><Button variant="primary" className='cardBtn'>Live Demo</Button></a>
-      </Card.Body>
-    </Card>
+     <div className='cardContainer'>
+        <div className='imgContainer'>
+            <img variant="top" src={imgUrl} className='cardImg'/>
+        </div>
+        <div className='cardBody'>
+          <div className='cardTitle'>{name}</div>
+          <div className='cardDesc'>
+            {description}
+          </div>
+          <a href={siteLink} target='blank'><Button variant="primary" className='cardBtn'>Live Demo</Button></a>
+        </div>
+    </div>
   </>
 }
 
