@@ -44,14 +44,20 @@ function Navbar() {
           <button onClick={generatePdfPrompt} className="desktopMenuBtn">Export to PDF</button>
         </div>
 
-        <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
-        <div className="navMenu" style={{display : showMenu? 'flex' : 'none'}}>
-            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
-            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-60} duration={25} className="listItem">Certificate</Link>
-            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
+        <div id='mobile'>
+            <i id='bar' className={showMenu? 'fas fa-times' : 'fas fa-bars'} onClick={()=>setShowMenu(!showMenu)}></i>
+
+            <div className="navMenu" style={{display : showMenu? 'flex' : 'none'}}>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
+                <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Certificate</Link>
+                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
+                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
+                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-60} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
+            </div>
         </div>
+
+        {/* <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/> */}
+
     </nav>
   </>
 }

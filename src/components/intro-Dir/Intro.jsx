@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css'
 import bg from '../../assets/image.png'
-import samres from '../../.././samResume.pdf'
+import samres from '../../.././Resume.pdf'
 
 function Intro() {
   return <>

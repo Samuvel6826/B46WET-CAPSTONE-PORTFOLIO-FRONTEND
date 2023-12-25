@@ -28,6 +28,12 @@ function Projects() {
 			<section id="projects">
 				<h1 className="projectsTitle">My Projects</h1>
 				<div className="myProjects">
+					{/* {
+					mentors.map((e,i) => {
+						console.log(mentors[i].id)
+					})
+					} */}
+
 					{loading ? (
 						<Spinner />
 					) : (
