@@ -6,21 +6,21 @@ import Spinner from '../common/SpinnerComp'
 
 function Projects() {
 
-  const [mentors,setMentors] = useState([])
+  const [projects,setProjects] = useState([])
   const [loading,setLoading] = useState(true)
   
-  let getMentors = async ()=> {
+  let getProjects = async ()=> {
     try {
       let res = await axios.get(`${'https://b46wet-capstone-portfolio-backend.onrender.com/users'}`)
       // console.log(res.data.data)
-      setMentors(res.data.data)
+      setProjects(res.data.data)
       setLoading(false)
     } catch (error) {
       console.log(error)
     }
   }
   useEffect (()=>{
-    getMentors()
+    getProjects()
   },[])
 
   return (
@@ -28,16 +28,10 @@ function Projects() {
 			<section id="projects">
 				<h1 className="projectsTitle">My Projects</h1>
 				<div className="myProjects">
-					{/* {
-					mentors.map((e,i) => {
-						console.log(mentors[i].id)
-					})
-					} */}
-
 					{loading ? (
 						<Spinner />
 					) : (
-						mentors.map((e, i) => {
+						projects.map((e, i) => {
 							return (
 								<Cards
 									key={i}

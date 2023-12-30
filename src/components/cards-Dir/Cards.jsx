@@ -13,7 +13,7 @@ function Cards({imgUrl, name, description, siteLink}) {
           <div className='cardDesc'>
             {description}
           </div>
-          <a href={siteLink} target='blank'><Button variant="primary" className='cardBtn'>Live Demo</Button></a>
+          <a href={siteLink} target='blank'><Button variant="primary" id='cardBtn'>Live Demo</Button></a>
         </div>
     </div>
   </>

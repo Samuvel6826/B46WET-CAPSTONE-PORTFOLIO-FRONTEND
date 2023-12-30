@@ -3,15 +3,17 @@ import './navbar.css'
 import Logo from '../../assets/logo.png'
 import contactImg from '../../assets/contact.png'
 import {Link} from 'react-scroll'
-import menu from '../../assets/menu.png'
 import { jsPDF } from "jspdf";
+import Spinner from '../common/SpinnerComp'
 
 function Navbar() {
   const [showMenu,setShowMenu] = useState(false)
+  const [loading,setLoading] = useState(false)
 
   const generatePdfPrompt = () => {
   if (confirm("After accepted wait for a minute for the file to download") == true) {
-    generatePdf()
+    setLoading(true)
+    generatePdf(loading)
   } 
 }
 
@@ -23,7 +25,9 @@ function Navbar() {
       compress: "true",
       putOnlyUsedFonts:true
      });
-    doc.html(document.body).save("Portfolio.pdf");
+    doc.html(document.body).save("Samuvel Portfolio.pdf");
+    
+    loading?(setLoading(false)):(!loading)
   };
 
   return <>
@@ -41,7 +45,7 @@ function Navbar() {
         </button>
 
         <div>
-          <button onClick={generatePdfPrompt} className="desktopMenuBtn">Export to PDF</button>
+          <button onClick={generatePdfPrompt} className="desktopMenuBtn">{loading?<Spinner />:<span>Export to PDF</span>}</button>
         </div>
 
         <div id='mobile'>

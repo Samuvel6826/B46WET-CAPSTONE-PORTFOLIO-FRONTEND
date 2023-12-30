@@ -85,11 +85,6 @@
     align-items: center;
 }
 
-.navMenu {
-    width: 0px;
-    transition: width 2s;
-}
-
 @media screen and (max-width : 720px) {
     #navbarr {
         padding: 0 1rem;
@@ -107,19 +102,21 @@
         height: 3rem;
         width: 4rem;
     }
+    #bar {
+        height: 2rem;
+        width: 2rem;
+    }
     .navMenu {
+        height:100vh;
+        width: 250px;
         z-index: -1;
         flex-direction: column;
-        /* justify-content: center; */
         align-items: center;
-        padding: 0.5rem;
-        width: 250px;
-        background: rgb(40, 40, 40);
+        /* justify-content: center; */
         position: fixed;
         top: 2rem;
         right: 0px;
-        height:100vh;
-        background: rgb(30, 30, 30);;
+        background: rgb(30, 30, 30);
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
     }

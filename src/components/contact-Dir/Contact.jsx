@@ -95,6 +95,8 @@ function Contact() {
             
             <a aria-label="Chat on WhatsApp" href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
 
+            <a aria-label="Phone Call" href="tel:+919043251797" target='blank'><img width="48" height="48" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone"/></a>
+
         </div>
 
       </form>
