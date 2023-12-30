@@ -49,6 +49,11 @@
 }
 
 .links {
+    width: 90vw;
+    max-width: 30rem;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }

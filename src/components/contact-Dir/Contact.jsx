@@ -84,6 +84,8 @@ function Contact() {
 
         <div className="links">
           
+            <a aria-label="Phone Call" href="tel:+919043251797" target='blank'><img width="43" height="43" src="https://img.icons8.com/flat-round/64/phone.png" alt="phone"/></a>
+
             <a href="https://www.instagram.com/mr_fun_factory_24/" target='blank'><img width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="instagram-new"/></a>
 
             <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin"/></a>
@@ -92,10 +94,9 @@ function Contact() {
 
             <a href="https://twitter.com/samuvel6826" target='blank'><img width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
 
-            
-            <a aria-label="Chat on WhatsApp" href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
+            <a aria-label="Email to" href="mailto:samuvel6826@gmail.com" target='blank'><img width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="gmail-new"/></a>
 
-            <a aria-label="Phone Call" href="tel:+919043251797" target='blank'><img width="48" height="48" src="https://img.icons8.com/ios-filled/50/apple-phone.png" alt="apple-phone"/></a>
+            <a aria-label="Chat on WhatsApp" href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1"/></a>
 
         </div>
 
