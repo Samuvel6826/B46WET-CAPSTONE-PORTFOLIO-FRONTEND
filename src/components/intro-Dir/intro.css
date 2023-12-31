@@ -9,14 +9,21 @@
 }
 
 .bg {
-    height: 100%;
+    height: 80%;
     width: 40%;
+    /* border-radius: 50%;
+    background-color: blue; */
+    /* background: url("https://res.cloudinary.com/dgsucveh2/image/upload/v1704032039/IMG20221229121236-modified_1_v2excd.png") no-repeat; */
 }
+
+/* .bg:hover {
+    background: url("https://res.cloudinary.com/dgsucveh2/image/upload/v1704034551/WhatsApp_Image_2023-12-31_at_20.12.35-modified_efzw1j.png") no-repeat;
+ } */
 
 .introContent {
     height: 100%;
     width: 50%;
-    font-size: 3rem;
+    font-size: 3.1rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -24,7 +31,7 @@
 }
 
 .hello {
-    font-size: 1.75rem;
+    font-size: 2rem;
     font-weight: 100;
 }
 
@@ -50,9 +57,11 @@
 @media screen and (max-width: 720px) {
     #intro {
         height: calc(100vh - 4rem);
+        flex-direction: column-reverse;
       }
     .bg {
-       display: none;
+       display: inline;
+       width: 80%;
     }
     .introContent {
         width: 95%;
@@ -70,7 +79,7 @@
         font-size: 1.5rem;
     }
     .introPara {
-        font-size: large;
+        font-size: medium;
     }
     .minus {
         display: none;

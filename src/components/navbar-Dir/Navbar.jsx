@@ -8,27 +8,27 @@ import Spinner from '../common/SpinnerComp'
 
 function Navbar() {
   const [showMenu,setShowMenu] = useState(false)
-  const [loading,setLoading] = useState(false)
+//   const [loading,setLoading] = useState(false)
 
-  const generatePdfPrompt = () => {
-  if (confirm("After accepted wait for a minute for the file to download") == true) {
-    setLoading(true)
-    generatePdf(loading)
-  } 
-}
+//   const generatePdfPrompt = () => {
+//   if (confirm("After accepted wait for a minute for the file to download") == true) {
+//     setLoading(true)
+//     generatePdf(loading)
+//   } 
+// }
 
-  const generatePdf = () => {
-    const doc = new jsPDF({
-      orientation: 'l',
-      unit: 'pt',
-      format: 'a4',
-      compress: "true",
-      putOnlyUsedFonts:true
-     });
-    doc.html(document.body).save("Samuvel Portfolio.pdf");
+//   const generatePdf = () => {
+//     const doc = new jsPDF({
+//       orientation: 'l',
+//       unit: 'pt',
+//       format: 'a4',
+//       compress: "true",
+//       putOnlyUsedFonts:true
+//      });
+//     doc.html(document.body).save("Samuvel Portfolio.pdf");
     
-    loading?(setLoading(false)):(!loading)
-  };
+//     loading?(setLoading(false)):(!loading)
+//   };
 
   return <>
     <nav id="navbarr">
@@ -44,9 +44,9 @@ function Navbar() {
             <img src={contactImg} alt="Contact Image" className="desktopMenuImg" />Contact Me
         </button>
 
-        <div>
+        {/* <div>
           <button onClick={generatePdfPrompt} className="desktopMenuBtn">{loading?<Spinner />:<span>Export to PDF</span>}</button>
-        </div>
+        </div> */}
 
         <div id='mobile'>
             <i id='bar' className={showMenu? 'fas fa-times' : 'fas fa-bars'} onClick={()=>setShowMenu(!showMenu)}></i>
