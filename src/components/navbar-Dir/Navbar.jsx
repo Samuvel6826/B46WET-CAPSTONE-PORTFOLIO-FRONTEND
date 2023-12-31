@@ -3,8 +3,8 @@ import './navbar.css'
 import Logo from '../../assets/logo.png'
 import contactImg from '../../assets/contact.png'
 import {Link} from 'react-scroll'
-import { jsPDF } from "jspdf";
-import Spinner from '../common/SpinnerComp'
+// import { jsPDF } from "jspdf";
+// import Spinner from '../common/SpinnerComp'
 
 function Navbar() {
   const [showMenu,setShowMenu] = useState(false)

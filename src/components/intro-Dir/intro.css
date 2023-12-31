@@ -8,17 +8,35 @@
   align-items: center;
 }
 
-.bg {
-    height: 80%;
-    width: 40%;
-    /* border-radius: 50%;
-    background-color: blue; */
-    /* background: url("https://res.cloudinary.com/dgsucveh2/image/upload/v1704032039/IMG20221229121236-modified_1_v2excd.png") no-repeat; */
+.dp {
+   width: 40%;
+   height: 80%;
+   perspective: 1000px;
+   border: 5px white solid;	
+   border-radius: 50%;	
+   overflow: hidden;	
+   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
 }
 
-/* .bg:hover {
-    background: url("https://res.cloudinary.com/dgsucveh2/image/upload/v1704034551/WhatsApp_Image_2023-12-31_at_20.12.35-modified_efzw1j.png") no-repeat;
- } */
+.flip-dp-inner {
+  position: relative;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+}
+
+.dp:hover .flip-dp-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-dp-front, .flip-dp-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-dp-back {
+  transform: rotateY(180deg);
+}
 
 .introContent {
     height: 100%;
@@ -59,10 +77,10 @@
         height: calc(100vh - 4rem);
         flex-direction: column-reverse;
       }
-    .bg {
+    /* .bg {
        display: inline;
        width: 80%;
-    }
+    } */
     .introContent {
         width: 95%;
     }
