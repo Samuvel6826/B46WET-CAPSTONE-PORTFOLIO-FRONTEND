@@ -40,6 +40,13 @@
     background: rgb(30, 30, 30);
 }
 
+/* .require {
+    color: azure;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+} */
+
 .submitBtn {
     background: white;
     border: none;

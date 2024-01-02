@@ -54,7 +54,7 @@ function Contact() {
             onBlur={formikQuery.handleBlur}
             value={formikQuery.values.your_name}
             />
-           {formikQuery.touched.your_name && formikQuery.errors.your_name?<div style={{color:"red"}}>*{formikQuery.errors.your_name}</div>:<></>}
+        {formikQuery.touched.your_name && formikQuery.errors.your_name ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.your_name}</div> : <></>}
 
         <input 
             type="email" 
@@ -66,7 +66,7 @@ function Contact() {
             onBlur={formikQuery.handleBlur}
             value={formikQuery.values.your_email}
             />
-           {formikQuery.touched.your_email && formikQuery.errors.your_email?<div style={{color:"red"}}>*{formikQuery.errors.your_email}</div>:<></>}
+        {formikQuery.touched.your_email && formikQuery.errors.your_email ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.your_email}</div> : <></>}
 
         <textarea
             rows="10" 
@@ -79,7 +79,7 @@ function Contact() {
             value={formikQuery.values.message}>
           
         </textarea>
-        {formikQuery.touched.message && formikQuery.errors.message?<div style={{color:"red"}}>*{formikQuery.errors.message}</div>:<></>}
+        {formikQuery.touched.message && formikQuery.errors.message ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.message}</div> : <></>}
         <button type='submit' value='Send' className="submitBtn">Submit</button>
 
         <div className="links">

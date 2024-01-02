@@ -29,16 +29,16 @@ function Intro() {
 					<div className="flip-dp-inner">
 						<div className="flip-dp-front">
 							<img
-                className='dp-Pic'
-								style={{ width: "100%", height: "100%" }}
+                				className='dp-Pic'
+								style={{ width: "575px", height: "100%" }}
 								src="https://res.cloudinary.com/dgsucveh2/image/upload/v1704099547/WhatsApp_Image_2024-01-01_at_06.38.56-modified_bjntky.png"
 								alt="Avatar"
 							/>
 						</div>
 						<div className="flip-dp-back">
 							<img
-                className='dp-Pic'
-								style={{ width: "100%", height: "100%" }}
+                				className='dp-Pic'
+								style={{ width: "575px", height: "100%" }}
 								src="https://res.cloudinary.com/dgsucveh2/image/upload/v1704032039/IMG20221229121236-modified_1_v2excd.png"
 								alt="Avatar"
 							/>

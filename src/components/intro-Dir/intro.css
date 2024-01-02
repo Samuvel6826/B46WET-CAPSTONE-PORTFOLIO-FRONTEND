@@ -15,13 +15,19 @@
    border: 5px white solid;	
    border-radius: 50%;	
    overflow: hidden;	
-   box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+   box-shadow: 0 5px 15px 0px rgba(200, 255, 0, 0.6);
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .flip-dp-inner {
   position: relative;
   transition: transform 0.5s;
   transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dp:hover .flip-dp-inner {
@@ -32,10 +38,14 @@
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
 }
 
 .flip-dp-back {
   transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .introContent {
