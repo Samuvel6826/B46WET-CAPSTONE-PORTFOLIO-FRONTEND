@@ -104,7 +104,7 @@ function Contact() {
 
   </section>
   <footer className="footer">
-        Copyright &#169; 2023 Samuvel Antony. All rights reserved.
+        Copyright &#169; 2024 Samuvel Antony. All rights reserved.
     </footer>
   </>
 }
