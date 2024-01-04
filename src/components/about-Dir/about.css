@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 0 2rem;
 }
 
 .aboutTitle {
@@ -19,7 +20,7 @@
     background-color: rgb(225, 241, 255);
     color: black;
     height: 37rem;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;

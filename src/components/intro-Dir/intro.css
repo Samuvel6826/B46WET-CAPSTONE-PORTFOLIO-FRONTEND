@@ -6,19 +6,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .dp {
    width: 40%;
-   height: 80%;
-   perspective: 1000px;
-   border: 5px white solid;	
-   border-radius: 50%;	
-   overflow: hidden;	
-   box-shadow: 0 5px 15px 0px rgba(200, 255, 0, 0.6);
+   height: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+.dp-Pic {
+    height: auto;
+    width: 500px;
 }
 
 .flip-dp-inner {
@@ -38,20 +39,20 @@
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-
+  border: 5px white solid;	
+  border-radius: 50%;	
+  overflow: hidden;	
+  box-shadow: 0 10px 15px 0px rgba(200, 255, 0, 0.6);
 }
 
 .flip-dp-back {
   transform: rotateY(180deg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .introContent {
     height: 100%;
-    width: 50%;
-    font-size: 3.1rem;
+    width: 60%;
+    font-size: 3.6rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -59,7 +60,7 @@
 }
 
 .hello {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 100;
 }
 
@@ -68,7 +69,7 @@
 }
 
 .introPara {
-    font-size: medium;
+    font-size: large;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -81,17 +82,44 @@
     font-size: 1.2rem;
 }
 
+
+
 @media screen and (max-width: 720px) {
     #intro {
         height: calc(100vh - 4rem);
         flex-direction: column-reverse;
+        padding: 0;
       }
     .dp {
-       display: inline;
+       height: 40%;
+       width: 100%;
        margin-top: 15px;
-       width: 80%;
     }
+    .dp-Pic {
+        height: auto;
+        width: 250px;
+    }
+    .flip-dp-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .dp:hover .flip-dp-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .flip-dp-front, .flip-dp-back {
+        position: absolute;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-dp-back {
+        transform: rotateY(180deg);
+      }
     .introContent {
+        height: 60%;
         width: 90%;
     }
     .hello {

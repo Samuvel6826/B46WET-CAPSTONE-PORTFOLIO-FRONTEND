@@ -7,7 +7,7 @@ function Intro() {
 		<>
 			<section id="intro">
 				<div className="introContent">
-					<span className="hello">Hello,</span>
+					<span className="hello">Hello!</span>
 					<span className="introText">
 						I'm <span className="introName">Samuvel</span>
 						<br />
@@ -16,7 +16,7 @@ function Intro() {
 					<p className="introPara">
 						I am a skilled and passionate web designer with experience in
 						creating <br className="minus" />
-						visually appealing and user-friendly websites.
+						visually appealing and user-friendly websites based in Tamil Nadu, India.
 					</p>
 					<span>
 						<a href={samres} target="blank" className='resumeBtnLink'>
@@ -30,7 +30,6 @@ function Intro() {
 						<div className="flip-dp-front">
 							<img
                 				className='dp-Pic'
-								style={{ width: "575px", height: "100%" }}
 								src="https://res.cloudinary.com/dgsucveh2/image/upload/v1704099547/WhatsApp_Image_2024-01-01_at_06.38.56-modified_bjntky.png"
 								alt="Avatar"
 							/>
@@ -38,7 +37,6 @@ function Intro() {
 						<div className="flip-dp-back">
 							<img
                 				className='dp-Pic'
-								style={{ width: "575px", height: "100%" }}
 								src="https://res.cloudinary.com/dgsucveh2/image/upload/v1704032039/IMG20221229121236-modified_1_v2excd.png"
 								alt="Avatar"
 							/>
