@@ -69,7 +69,7 @@ function Contact() {
         {formikQuery.touched.your_email && formikQuery.errors.your_email ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.your_email}</div> : <></>}
 
         <textarea
-            rows="10" 
+            rows="5" 
             className="msg" 
             placeholder='Enter Your Message'
             id='message'

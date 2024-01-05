@@ -88,7 +88,6 @@
     #intro {
         height: calc(100vh - 4rem);
         flex-direction: column-reverse;
-        padding: 0;
       }
     .dp {
        height: 40%;
@@ -120,19 +119,18 @@
       }
     .introContent {
         height: 60%;
-        width: 90%;
+        width: 100%;
+        margin-bottom: 30px;
     }
     .hello {
-        font-size: 1.8rem;
-        color: yellow;
+        font-size: 1.5rem;
     }
     .introName {
-        color: rgb(249, 249, 249);
+        color: yellow;
         font-size: 2rem;
     }
     .introText {
-        color: rgb(255, 0, 208);
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .introPara {
         font-size: medium;
