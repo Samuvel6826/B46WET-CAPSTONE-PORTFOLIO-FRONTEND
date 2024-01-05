@@ -44,47 +44,52 @@ function Contact() {
 
       <form id='contactForm' className="contactForm" ref={form} onSubmit={formikQuery.handleSubmit}>
 
-        <input 
-            type="text" 
-            className="name" 
-            placeholder='Your Name' 
-            id='your_name'
-            name='your_name'
-            onChange={formikQuery.handleChange}
-            onBlur={formikQuery.handleBlur}
-            value={formikQuery.values.your_name}
-            />
-        {formikQuery.touched.your_name && formikQuery.errors.your_name ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.your_name}</div> : <></>}
+        <div className='namee'>
+            <input 
+                type="text" 
+                className="name" 
+                placeholder='Your Name' 
+                id='your_name'
+                name='your_name'
+                onChange={formikQuery.handleChange}
+                onBlur={formikQuery.handleBlur}
+                value={formikQuery.values.your_name}
+                />
+            {formikQuery.touched.your_name && formikQuery.errors.your_name ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.your_name}</div> : <></>}
+        </div>
 
-        <input 
-            type="email" 
-            className="email" 
-            placeholder='Your Email' 
-            id='your_email'
-            name='your_email'
-            onChange={formikQuery.handleChange}
-            onBlur={formikQuery.handleBlur}
-            value={formikQuery.values.your_email}
-            />
-        {formikQuery.touched.your_email && formikQuery.errors.your_email ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.your_email}</div> : <></>}
+          <div className='emaill'>
+              <input 
+                type="email" 
+                className="email" 
+                placeholder='Your Email' 
+                id='your_email'
+                name='your_email'
+                onChange={formikQuery.handleChange}
+                onBlur={formikQuery.handleBlur}
+                value={formikQuery.values.your_email}
+                />
+            {formikQuery.touched.your_email && formikQuery.errors.your_email ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.your_email}</div> : <></>}
+          </div>
 
-        <textarea
-            rows="5" 
-            className="msg" 
-            placeholder='Enter Your Message'
-            id='message'
-            name='message'
-            onChange={formikQuery.handleChange}
-            onBlur={formikQuery.handleBlur}
-            value={formikQuery.values.message}>
-          
-        </textarea>
-        {formikQuery.touched.message && formikQuery.errors.message ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.message}</div> : <></>}
+          <div className='msgg'>
+              <textarea
+                  rows="5" 
+                  className="msg" 
+                  placeholder='Enter Your Message'
+                  id='message'
+                  name='message'
+                  onChange={formikQuery.handleChange}
+                  onBlur={formikQuery.handleBlur}
+                  value={formikQuery.values.message}>
+              </textarea>
+              {formikQuery.touched.message && formikQuery.errors.message ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.message}</div> : <></>}
+          </div>
         <button type='submit' value='Send' className="submitBtn">Submit</button>
 
         <div className="links">
           
-            <a href="tel:+919043251797" target='blank'><img title='Phone Call' width="43" height="43" src="https://img.icons8.com/flat-round/64/phone.png" alt="Phone"/></a>
+            <a href="tel:+919043251797" target='blank'><img id='telephone' title='Phone Call' width="43" height="43" src="https://img.icons8.com/flat-round/64/phone.png" alt="Phone"/></a>
 
             <a href="https://www.instagram.com/mr_fun_factory_24/" target='blank'><img title='Instagram' width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram"/></a>
 
@@ -92,7 +97,7 @@ function Contact() {
 
             <a href="https://www.facebook.com/samuvel68" target='blank'><img title='Meta' width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Meta" className="link"/></a>
 
-            <a href="https://twitter.com/samuvel6826" target='blank'><img title='X' width="48" height="48" src="https://img.icons8.com/color/48/twitter--v1.png" alt="X"/></a>
+            <a href="https://twitter.com/samuvel6826" target='blank'><img title='X' width="48" height="48" src="https://img.icons8.com/color/48/twitter--v3.png" alt="X"/></a>
 
             <a href="mailto:samuvel6826@gmail.com" target='blank'><img title='Gmail' width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail"/></a>
 

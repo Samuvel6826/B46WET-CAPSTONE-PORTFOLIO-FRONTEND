@@ -60,6 +60,8 @@ function Navbar() {
             </div>
         </div>
 
+        {/* <img src={menu} alt="Menu" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/> */}
+
     </nav>
   </>
 }
