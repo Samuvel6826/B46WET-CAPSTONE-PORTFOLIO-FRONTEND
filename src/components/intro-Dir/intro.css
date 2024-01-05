@@ -92,7 +92,7 @@
     .dp {
        height: 40%;
        width: 100%;
-       margin-top: 15px;
+       margin-top: 1.5rem;
     }
     .dp-Pic {
         height: auto;
@@ -120,7 +120,7 @@
     .introContent {
         height: 60%;
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 5rem;
     }
     .hello {
         font-size: 1.5rem;

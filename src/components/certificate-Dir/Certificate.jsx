@@ -10,9 +10,9 @@ function Certificate() {
 						<a href="https://www.guvi.in/" target='blank'>
 							<h1>GUVI Geek Networks, IITM Research Park</h1>
 						</a>
-						<br />
+						{/* <br /> */}
 						<h4>Reputed Edtech platform for Vernacular Languages. GUVI is an IIT-M & IIM-A incubated Ed-tech company that focuses on providing personalized learning solutions for its learners right from online learning, upskilling & recruitment opportunities in world-class quality. And, bestow tech-skills with the comfort of your native language.</h4>
-						<br />
+						{/* <br /> */}
 						<a href="https://www.guvi.in/ai-for-india/?utm_source=fntge&utm_medium=referral">My referral link</a>
 					</div>
 					<div className="certificateImg">

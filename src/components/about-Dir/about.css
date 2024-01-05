@@ -55,6 +55,10 @@
         font-size: 1.5rem;
         margin: 0.5rem;
     }
+    .aboutContainer {
+        height: 80%;
+        margin-bottom: 5rem;
+    }
     .aboutDesc {
         font-size: 0.8rem;
     }
