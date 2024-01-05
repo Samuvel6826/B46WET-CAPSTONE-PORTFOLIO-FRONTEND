@@ -60,7 +60,9 @@
         margin-bottom: 5rem;
     }
     .aboutDesc {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 1.5rem 2rem 0.5rem 2rem;
     }
     .skillsContainer {
         padding: 0.5rem;

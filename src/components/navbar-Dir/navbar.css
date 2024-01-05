@@ -45,13 +45,13 @@
     padding: 0 2rem;
     border-radius: 2rem;
     font-size: 1.1rem;
+    margin-right: 1rem;
 }
 
 .desktopMenuImg {
     object-fit: cover;
     height: 1rem;
     width: 1rem;
-    margin: 1rem;
 }
 
 .active {

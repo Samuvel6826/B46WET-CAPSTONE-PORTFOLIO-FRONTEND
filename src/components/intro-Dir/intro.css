@@ -145,3 +145,12 @@
         text-decoration: none;
     }
 }
+
+@media only screen and (1500px <= width <= 2000px) {
+  .dp-Pic {
+    width: 525px;
+  }
+  .introContent {
+    font-size: 5.1rem;
+  }
+}

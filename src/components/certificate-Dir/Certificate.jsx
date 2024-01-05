@@ -13,7 +13,7 @@ function Certificate() {
 						{/* <br /> */}
 						<h4>Reputed Edtech platform for Vernacular Languages. GUVI is an IIT-M & IIM-A incubated Ed-tech company that focuses on providing personalized learning solutions for its learners right from online learning, upskilling & recruitment opportunities in world-class quality. And, bestow tech-skills with the comfort of your native language.</h4>
 						{/* <br /> */}
-						<a href="https://www.guvi.in/ai-for-india/?utm_source=fntge&utm_medium=referral">My referral link</a>
+						<a className='refLink' href="https://www.guvi.in/ai-for-india/?utm_source=fntge&utm_medium=referral">My referral link</a>
 					</div>
 					<div className="certificateImg">
 						<a href="https://www.guvi.in/verify-certificate?id=E15ri2qD52L30070n4#" target='blank'>
