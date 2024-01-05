@@ -27,10 +27,20 @@
     align-items: center;
     border: 2px solid rgb(193, 193, 193);
     padding: 0 1rem;
+    overflow: hidden;
 }
 
 .certificateBy a {
     text-decoration: none;
+}
+
+.certificateBy a h1{
+ color: yellow;
+    font-size: 2rem;
+}
+
+.certificateBy h4{
+    font-size: 1.5rem;
 }
 
 .certificateImg {
@@ -71,6 +81,6 @@
     .certificateImg {
         height: 30%;
         width: 100%;
-        margin-bottom: 4rem;
+        margin-bottom: 4.5rem;
     }
 }
