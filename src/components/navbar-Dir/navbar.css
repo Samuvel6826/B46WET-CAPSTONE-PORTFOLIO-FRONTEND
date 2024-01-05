@@ -1,5 +1,5 @@
 #navbarr {
-    background: rgb(30, 30, 30);
+    background-color: rgb(30, 30, 30);
     height: 5rem;
     width: 100vw;
     display: flex;
@@ -11,6 +11,7 @@
     z-index: 3;
     font-size: 1.2rem;
     padding: 0 1rem;
+    margin: 0;
 }
 
 .logo {
