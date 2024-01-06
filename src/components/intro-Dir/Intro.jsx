@@ -14,9 +14,9 @@ function Intro() {
 						MERN Stack Web Developer
 					</span>
 					<p className="introPara">
-						I am a skilled and passionate web designer with experience in
-						creating <br className="minus" />
-						visually appealing and user-friendly websites based in Tamil Nadu, India.
+						I am a skilled and passionate web designer with experience in creating 
+						<br className="minus" />
+						visually appealing and user-friendly websites based in Tamil Nadu, India. I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.
 					</p>
 					<span>
 						<a href={samres} target="blank" className='resumeBtnLink'>
