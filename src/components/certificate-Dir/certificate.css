@@ -132,7 +132,7 @@
         font-size: calc(24px + 0.390625vw);
     }
     .certificateBy h4{
-        font-size: calc(19px + 0.390625vw);
+        font-size: calc(18px + 0.390625vw);
     }
     .refLink {
         font-size: calc(15px + 0.390625vw);
@@ -141,7 +141,7 @@
 
 @media only screen and (1536px <= width <= 1920px) {
     .certificateBy a h1{
-        font-size: calc(26px + 0.390625vw);
+        font-size: calc(28px + 0.390625vw);
     }
     .certificateBy h4{
         font-size: calc(20px + 0.390625vw);
@@ -153,12 +153,12 @@
 
 @media only screen and (1920px <= width <= 2560px) {
     .certificateBy a h1{
-        font-size: calc(28px + 0.390625vw);
+        font-size: calc(33px + 0.390625vw);
     }
     .certificateBy h4{
-        font-size: calc(21px + 0.390625vw);
+        font-size: calc(23px + 0.390625vw);
     }
     .refLink {
-        font-size: calc(17px + 0.390625vw);
+        font-size: calc(18px + 0.390625vw);
     }
 }

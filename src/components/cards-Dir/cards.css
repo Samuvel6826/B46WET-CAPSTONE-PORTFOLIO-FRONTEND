@@ -47,11 +47,6 @@
     font-weight: 300;
 }
 
-#cardBtn {
-    background: rgb(49, 108, 244);
-    color: aliceblue;
-}
-
 @media screen and (max-width:600px) {
     .imgContainer {
         height: 70%;
