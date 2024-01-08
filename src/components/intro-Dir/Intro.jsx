@@ -1,5 +1,6 @@
 import React from 'react'
 import './intro.css'
+import contactImg from '../../assets/contact.png'
 import samres from '../../.././Resume.pdf'
 
 function Intro() {
@@ -18,11 +19,9 @@ function Intro() {
 						<br className="minus" />
 						visually appealing and user-friendly websites based in Tamil Nadu, India. I will love to hear from you. Whether it's a project, job opportunity, or just a chat. Feel free to contact me.
 					</p>
-					<span>
-						<a href={samres} target="blank" className='resumeBtnLink'>
-							<button className="resumeBtn">Resume</button>
-						</a>
-					</span>
+					<button className="desktopMenuBtn" onClick={()=>{document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}}>
+					<img width="25" height="25" src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="user-male-circle"/>Hire Me
+					</button>
 				</div>
 
 				<div className="dp">

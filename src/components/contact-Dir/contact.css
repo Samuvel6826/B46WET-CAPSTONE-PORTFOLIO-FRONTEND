@@ -10,7 +10,6 @@
 }
 
 .contactPageTitle {
-    margin: 1rem 0;
     font-size: 3rem;
 }
 
@@ -79,13 +78,26 @@
 
 .footer {
     width: 100vw;
-    height: 4rem;
-    background: rgb(30, 30, 30);
+    height: 3rem;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 300;
+    text-align: center;
+    font-weight: 250;
     font-size: medium;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    background-color: rgb(30, 30, 30);
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: rgb(117, 117, 117);
 }
 
 img {
@@ -108,8 +120,12 @@ img {
         margin-bottom: 0.5rem;
     }
     .footer {
-        height: 2rem;
+        height: 3rem;
         font-size: 0.8rem;
+        width: 100vw;
+        text-align: center;
+        padding: 0 1rem;
+        margin: 0;
     }
     .links a img{
         height: 35px;
