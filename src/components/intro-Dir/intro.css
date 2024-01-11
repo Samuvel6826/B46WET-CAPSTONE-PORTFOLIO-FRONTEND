@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
+  padding: 0 2rem;
   margin: 0;
 }
 
@@ -53,7 +53,7 @@
 .introContent {
     height: 100%;
     width: 60%;
-    font-size: 3.6rem;
+    font-size: 6rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -61,12 +61,17 @@
 }
 
 .hello {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 100;
 }
 
 .introName {
+    font-size: 5.5rem;
     color: rgb(255, 255, 56);
+}
+
+.introText {
+  font-size: 3.7rem;
 }
 
 .introPara {
@@ -90,6 +95,11 @@
   font-size: 1.3rem;
 }
 
+.introbtnCtn {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
 .desktopMenuBtn img {
   margin: 0 5px 0 0;
 }
@@ -139,19 +149,35 @@
     }
     .introName {
         color: yellow;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .introText {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     .introPara {
-        font-size: medium;
+        font-size: small;
     }
     .minus {
         display: none;
     } 
+    .introContent hr {
+        display: none;
+    }
     .desktopMenuBtn {
       display: flex;
+  }
+  .desktopMenuBtn {
+    height: 2rem;
+    width: 8rem;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+  
+  .introbtnCtn {
+    width: 100%;
+    justify-content: start;
   }
 }
 

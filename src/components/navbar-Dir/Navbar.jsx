@@ -33,13 +33,16 @@ function Navbar() {
 
   return <>
     <nav id="navbarr">
-        <img src={Logo} alt="Logo" className='logo'/>
+          <a href='intro'>
+            <img src={Logo} alt="Logo" className='logo'/>
+          </a>
+        
         <div className="desktopMenu">
-            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Home</Link>
-            <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Certificate</Link>
-            <Link activeClass='active' to='about' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">About</Link>
-            <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Projects</Link>
-            <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Contact</Link>
+            <Link activeClassName='active' to='intro' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Home</Link>
+            <Link activeClassName='active' to='certificate' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Certificate</Link>
+            <Link activeClassName='active' to='about' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">About</Link>
+            <Link activeClassName='active' to='projects' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Projects</Link>
+            <Link activeClassName='active' to='contact' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Contact</Link>
         </div>
 
         <a href={samres} target="blank" className='resumeBtn'>
@@ -59,7 +62,7 @@ function Navbar() {
                 <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Certificate</Link>
                 <Link activeClass='active' to='about' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
                 <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
-                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
+                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
             </div>
         </div>
 
