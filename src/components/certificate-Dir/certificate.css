@@ -76,11 +76,11 @@
     }
     .certificateBy a h1 {
         color: yellow;
-        font-size: calc(20px + 0.390625vw);
+        font-size: calc(22px + 0.390625vw);
     }
     .certificateBy h4 {
-        font-size: calc(15px + 0.390625vw);
-        text-align: justify;
+        font-size: calc(17px + 0.390625vw);
+        text-align: center;
     }
     
     .certificateImg {
