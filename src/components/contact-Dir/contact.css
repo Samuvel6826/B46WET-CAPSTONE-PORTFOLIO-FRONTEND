@@ -29,7 +29,7 @@
     max-width: 60rem;
 }
 
-.namee, .emaill, .msgg {
+.nameContainer, .emailContainer, .msgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +54,14 @@
 
 .require {
     padding-right: 1rem;
+}
+
+.textReq {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .submitBtn {

@@ -15,15 +15,13 @@ function Intro() {
 						<br />
 						MERN Stack Web Developer
 					</h3>
-					<h5 className="introPara">
-						I am a skilled and passionate web designer (Beginner) experience in creating 
-						<br className="minus" />
-						 visually appealing and user-friendly websites and I'm from Tamil Nadu, India. I have a tremendous passion to continually learn and acquire knowledge in Web Development technologies and processes. I will love to hear from you. Whether it's a Project, Job opportunity, or just a chat. Feel free to Contact me.
+					<p className="introPara">
+						I am a skilled and passionate web designer (Beginner) experience in creating <br className="minus" />visually appealing and user-friendly websites and I'm from Tamil Nadu, India. I have a tremendous passion to continually learn and acquire knowledge in Web Development technologies and processes. I will love to hear from you. Whether it's a Project, Job opportunity, or just a chat. Feel free to Contact me.
 
 						{/* <p>
 						I am a Full-Stack Developer with a great extent of knowledge in web development technologies and processes. I have a tremendous passion to continually learn and aim to ship neat and modern code that solve everyday problems, while incorporating my past experience in the Blue-Collar workforfree which helped instill a diligent work ethic, resourcefulness, and communication skills that I have taken with me into the coding world.
 						</p> */}
-					</h5>
+					</p>
 					<hr />
 					
 						<div className="introbtnCtn">
