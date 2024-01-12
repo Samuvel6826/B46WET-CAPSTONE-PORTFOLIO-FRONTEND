@@ -103,11 +103,12 @@
     }
     .navMenu {
         height:100vh;
-        width: 250px;
+        width: 
+        15rem;
         z-index: -1;
         flex-direction: column;
         align-items: center;
-        position: fixed;
+        position: absolute;
         top: 2rem;
         right: 0px;
         background: rgb(30, 30, 30);

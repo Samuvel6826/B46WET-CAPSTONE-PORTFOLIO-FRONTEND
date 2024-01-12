@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './navbar.css'
 import Logo from '../../assets/logo.png'
-import contactImg from '../../assets/contact.png'
 import {Link} from 'react-scroll'
 import samres from '../../.././Resume.pdf'
 // import { jsPDF } from "jspdf";
@@ -33,16 +32,16 @@ function Navbar() {
 
   return <>
     <nav id="navbarr">
-          <a href='intro'>
+          <a href='Sam.dev'>
             <img src={Logo} alt="Logo" className='logo'/>
           </a>
         
         <div className="desktopMenu">
-            <Link activeClassName='active' to='intro' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Home</Link>
-            <Link activeClassName='active' to='certificate' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Certificate</Link>
-            <Link activeClassName='active' to='about' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">About</Link>
-            <Link activeClassName='active' to='projects' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Projects</Link>
-            <Link activeClassName='active' to='contact' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Contact</Link>
+            <Link activeclassname='active' to='intro' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Home</Link>
+            <Link activeclassname='active' to='certificate' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Certificate</Link>
+            <Link activeclassname='active' to='about' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">About</Link>
+            <Link activeclassname='active' to='projects' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Projects</Link>
+            <Link activeclassname='active' to='contact' spy={true} smooth={true} offset={-80} duration={25} className="desktopMenuListItem">Contact</Link>
         </div>
 
         <a href={samres} target="blank" className='resumeBtn'>

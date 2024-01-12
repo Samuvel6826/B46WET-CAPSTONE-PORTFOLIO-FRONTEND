@@ -19,18 +19,26 @@ function Contact() {
       your_email: Yup.string().required("Required").email("Enter a valid email"),
       message: Yup.string().required("Required")
     }),
-    onSubmit: (values) => {
+    onSubmit: async (values) => {
       sendEmail(values)
-    }
-  })
+      formikQuery.resetForm(
+       {
+          values : {
+            your_name: "",
+            your_email: "",
+            message: ""
+          }
+        },
+      )
+    },
+  });
+  
 
   const sendEmail = (e) => {
-    // e.preventDefault();
     emailjs.sendForm('service_a6vosqm', 'template_y8grdsb', form.current, 'dsQNk0H0okAie8xT2')
       .then((result) => {
-        console.log(result.text);
-        // e.target.value.reset()
-        alert('Email Sent!')
+        console.log(result);
+        alert('Email Sent Successfully!')
       }, (error) => {
         console.log(error.text);
       });
