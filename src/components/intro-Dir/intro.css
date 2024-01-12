@@ -144,7 +144,7 @@
     .introContent {
         height: 60%;
         width: 100%;
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
     .hello {
         font-size: 1.2rem;
