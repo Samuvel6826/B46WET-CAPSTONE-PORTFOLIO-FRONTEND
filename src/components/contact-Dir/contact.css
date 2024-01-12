@@ -113,7 +113,7 @@ img {
 
 @media screen and (max-width:720px) {
     #contact {
-        height: calc(100vh - 6rem);
+        height: calc(100vh - 7rem);
     }
     .contactPageTitle {
         font-size: 3rem;
