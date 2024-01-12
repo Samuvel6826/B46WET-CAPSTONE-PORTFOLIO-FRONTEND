@@ -50,6 +50,7 @@
 @media screen and (max-width : 600px) {
     #about {
         height: calc(100vh - 4rem);
+        padding: 0 1rem;
     }
     .aboutTitle {
         font-size: 2rem;

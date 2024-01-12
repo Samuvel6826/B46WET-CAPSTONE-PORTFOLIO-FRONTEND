@@ -109,6 +109,7 @@
 @media screen and (max-width: 720px) {
     #intro {
         height: calc(100vh - 4rem);
+        padding: 0 1rem;
         flex-direction: column-reverse;
       }
     .dp {
@@ -149,10 +150,10 @@
     }
     .introName {
         color: yellow;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .introText {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
     .introPara {
         font-size: small;

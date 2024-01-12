@@ -58,6 +58,7 @@
 @media screen and (max-width : 420px) {
     #certificate {
         height: calc(100vh - 4rem);
+        padding: 0 1rem;
     }
     .certificateContainer {
         flex-direction: column;
