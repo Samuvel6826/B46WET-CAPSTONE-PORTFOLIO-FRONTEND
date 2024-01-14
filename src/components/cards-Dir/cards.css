@@ -75,7 +75,8 @@
     }
     #cardBtn {
         height: 1rem;
-        font-size: 0.6rem;
+        padding: 0.8rem;
+        font-size: 0.8rem;
         display: flex;
         align-items: center;
         justify-content: center;
