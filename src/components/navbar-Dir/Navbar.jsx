@@ -32,7 +32,7 @@ function Navbar() {
 
   return <>
     <nav id="navbarr">
-          <a href='Sam.dev'>
+          <a href='samtocode.in'>
             {/* <img src={Logo} alt="Logo" /> */}
             <h1 className='logo' >samtocode.in</h1>
           </a>
