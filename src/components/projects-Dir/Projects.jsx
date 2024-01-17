@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import './projects.css'
 import Cards from '../cards-Dir/Cards'
 import axios from 'axios';

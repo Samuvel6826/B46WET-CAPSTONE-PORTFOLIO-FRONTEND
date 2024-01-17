@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './about.css'
 
 function About() {
@@ -7,7 +7,7 @@ function About() {
         <h1 className="aboutTitle">About/Skills</h1>
         <div className="aboutContainer">
         <h2 className="aboutDesc">
-        I'm a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, Javascript and mentioned below Tech Stack...
+        I&apos;m a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites. I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, Javascript and mentioned below Tech Stack...
         </h2>
 
         <div className="skillsContainer">

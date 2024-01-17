@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css'
 import { useFormik } from 'formik';
@@ -34,7 +34,7 @@ function Contact() {
   });
   
 
-  const sendEmail = (e) => {
+  const sendEmail = () => {
     emailjs.sendForm('service_a6vosqm', 'template_y8grdsb', form.current, 'dsQNk0H0okAie8xT2')
       .then((result) => {
         console.log(result);
