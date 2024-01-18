@@ -97,22 +97,22 @@ function Contact() {
 
         <div className="links">
 
-          <a href="tel:+919043251797" target='blank'><img id='telephone' title='Phone Call' width="43" height="43" src="https://img.icons8.com/flat-round/64/phone.png" alt="Phone" /></a>
+          <a href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img title='Whatsapp' width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp" /></a>
 
           <a href="https://www.instagram.com/mr_fun_factory_24/" target='blank'><img title='Instagram' width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram" /></a>
-
-          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' className='skillsImg' width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github"/></a>
-
-          <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img title='Linkedin' width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="Linkedin" /></a>
 
           <a href="https://www.facebook.com/samuvel68" target='blank'><img title='Meta' width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Meta" className="link" /></a>
 
           <a href="https://twitter.com/samuvel6826" target='blank'><img title='X' width="48" height="48" src="https://img.icons8.com/color/48/twitter--v3.png" alt="X" /></a>
 
+          <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img title='Linkedin' width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="Linkedin" /></a>
+
+          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' className='skillsImg' width="40" height="40" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1705580884/github-mark-white_pzoseb.png" alt="github"/></a>
+
           <a href="mailto:samuvel6826@gmail.com" target='blank'><img title='Gmail' width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" /></a>
 
-          <a href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img title='Whatsapp' width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp" /></a>
-
+          <a href="tel:+919043251797" target='blank'><img id='telephone' title='Phone Call' width="43" height="43" src="https://img.icons8.com/flat-round/64/phone.png" alt="Phone" /></a>
+        
         </div>
 
       </form>

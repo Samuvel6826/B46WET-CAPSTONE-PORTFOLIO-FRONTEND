@@ -34,7 +34,7 @@ function About() {
 
           <a href="https://tailwindcss.com/" target='blank'><img title='Tailwind CSS' className='skillsImg' width="48" height="48" src="https://img.icons8.com/fluency/48/tailwind_css.png" alt="tailwind_css"/></a>
 
-          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' className='skillsImg' width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github"/></a>
+          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' className='skillsImg' width="48" height="48" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1705581039/github-mark_iq2coy.png" alt="github"/></a>
 
           <a href="https://git-scm.com/" target='blank'><img title='Git' className='skillsImg' width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/></a>
           
