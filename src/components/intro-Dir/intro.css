@@ -130,7 +130,8 @@
     .dp {
        height: 40%;
        width: 100%;
-       margin-top: 1rem;
+       margin-top: 6rem;
+       overflow: visible;
     }
     .dp-Pic {
         height: auto;
@@ -164,10 +165,11 @@
         font-size: 1.2rem;
     }
     .introName {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .introText {
         font-size: 1.4rem;
+        margin: 0 0 0.3rem 0;
     }
     .introPara {
         font-size: small;
