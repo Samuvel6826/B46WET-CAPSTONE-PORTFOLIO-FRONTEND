@@ -69,6 +69,7 @@
 
 .introName {
     font-size: 5.5rem;
+    font-family: 'Aldrich', sans-serif;
     color: white;
 }
 
@@ -118,11 +119,11 @@
     .dp {
        height: 40%;
        width: 100%;
-       margin-top: 2rem;
+       margin-top: 1rem;
     }
     .dp-Pic {
         height: auto;
-        width: 250px;
+        width: 215px;
     }
     .flip-dp-inner {
         display: flex;
@@ -152,7 +153,6 @@
         font-size: 1.2rem;
     }
     .introName {
-        color: yellow;
         font-size: 2rem;
     }
     .introText {

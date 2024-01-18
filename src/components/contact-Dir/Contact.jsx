@@ -101,6 +101,8 @@ function Contact() {
 
           <a href="https://www.instagram.com/mr_fun_factory_24/" target='blank'><img title='Instagram' width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram" /></a>
 
+          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' className='skillsImg' width="48" height="48" src="https://img.icons8.com/fluency/48/github.png" alt="github"/></a>
+
           <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img title='Linkedin' width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="Linkedin" /></a>
 
           <a href="https://www.facebook.com/samuvel68" target='blank'><img title='Meta' width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Meta" className="link" /></a>
