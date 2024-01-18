@@ -40,6 +40,7 @@ function Intro() {
 								alt="Avatar"
 							/>
 						</div>
+						
 						<div className="flip-dp-back">
 							<img
 								className='dp-Pic'
@@ -49,6 +50,7 @@ function Intro() {
 						</div>
 					</div>
 				</div>
+
 			</section>
 		</>
 	);
