@@ -5,6 +5,10 @@ import { Link } from 'react-scroll'
 function Intro() {
 	return (
 		<>
+			<div className='navHR_CTN'>
+			<hr className='navHR'/>
+			</div>
+
 			<section id="intro">
 				<div className="introContent">
 					<h6 className="hello">Hello!👋🏻</h6>
