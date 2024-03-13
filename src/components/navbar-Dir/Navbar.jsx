@@ -34,7 +34,7 @@ function Navbar() {
     <nav id="navbarr">
           <a href='samtocode.in'>
             {/* <img src={Logo} alt="Logo" /> */}
-            <h1 className='logo' >samtocode.in</h1>
+            <h1 className='logo' >samtocode24</h1>
           </a>
         
         <div className="desktopMenu">

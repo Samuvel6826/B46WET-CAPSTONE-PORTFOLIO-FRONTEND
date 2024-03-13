@@ -18,7 +18,7 @@ function Intro() {
 						MERN Stack Web Developer
 					</h3>
 					<p className="introPara">
-						I am a skilled and passionate web developer (Beginner) based in Kanyakumari, Tamil Nadu, India. Experienced in creating visually appealing and user-friendly websites I love creating websites that look good and are easy to use. Whether it&apos;s making user-friendly designs or diving into backend development, I enjoy the challenge. Let&apos;s connect and bring some color to the web! Feel free to drop me a line if you&apos;ve got a cool project or job on the horizon, or if you&apos;re just up for a lively conversation about web development. I&apos;m eager to hear from you!
+						I am a skilled and passionate web developer (Beginner) based in Kanyakumari, Tamil Nadu, India. Experienced in creating visually appealing and user-friendly websites. I love creating websites that look good and are easy to use. Whether it&apos;s making user-friendly designs or diving into backend development, I enjoy the challenge. Let&apos;s connect and bring some color to the web! Feel free to drop me a line if you&apos;ve got a cool project or job on the horizon, or if you&apos;re just up for a lively conversation about web development. I&apos;m eager to hear from you!
 					</p>
 					<hr />
 

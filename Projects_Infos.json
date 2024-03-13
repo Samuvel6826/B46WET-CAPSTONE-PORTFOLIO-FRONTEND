@@ -8,37 +8,44 @@
 },
 {
   "id": "2",
-  "imgUrl": "https://res.cloudinary.com/dgsucveh2/image/upload/v1702094196/CRUD_tr40vi.png",
-  "name": "CRUD WITH STUDENT & TEACHER MANAGEMENT",
-  "description": "Admin dashboard implemented the CRUD with Student & Teacher Management. It contains Assigning Feature too. It can Create, Edit, Delete and Assign Student to Teacher as well as Teacher to Student.",
-  "siteLink": "https://tourmaline-gumdrop-6f0708.netlify.app/dashboard"
-},
-{
-  "id": "3",
   "imgUrl": "https://res.cloudinary.com/dgsucveh2/image/upload/v1702094194/Calculator_frt7gf.png",
   "name": "SIMPLE CALCULATOR",
   "description": "Simple Javascript Calculator",
   "siteLink": "https://aquamarine-malasada-bb530c.netlify.app/"
 },
 {
+  "id": "3",
+  "imgUrl": "https://res.cloudinary.com/dgsucveh2/image/upload/v1707546978/Screenshot_2024-02-10_at_10.58.51_AM_qul3na.png",
+  "name": "WASTE MANAGEMENT SYSTEM",
+  "description": "A CRUD project which has included AUTH, JWT, User based login, IOT Sensor. Currently not modified for small screens like Mobiles. View it in laptop screen.",
+  "siteLink": "https://clever-cannoli-f99766.netlify.app"
+},
+{
   "id": "4",
   "imgUrl": "https://res.cloudinary.com/dgsucveh2/image/upload/v1702094200/PKC_Quiz_muce4g.png",
   "name": "QUIZ APP",
-  "description": "This app contains 7 rounds, 1st 4 round are similar, 2nd two rounds are similar and Last 1 is unique.",
+  "description": "This app contains 7 rounds, 1st 4 round are similar, 2nd two rounds are similar and Last 1 is unique. Currently not modified for small screens like Mobiles. View it in laptop screen.",
   "siteLink": "https://preeminent-figolla-43e7b7.netlify.app/"
 },
 {
   "id": "5",
   "imgUrl": "https://res.cloudinary.com/dgsucveh2/image/upload/v1702094198/Dogs_Image_kumdsz.png",
   "name": "PAGINATION",
-  "description": "Dog's Images based on the Stanford Dogs Dataset",
+  "description": "Dog's Images based on the Stanford Dogs Dataset. Currently not modified for small screens like Mobiles. View it in laptop screen.",
   "siteLink": "https://benevolent-chimera-fee51e.netlify.app/"
 },
 {
   "id": "6",
+  "imgUrl": "https://res.cloudinary.com/dgsucveh2/image/upload/v1702094196/CRUD_tr40vi.png",
+  "name": "CRUD WITH STUDENT & TEACHER MANAGEMENT",
+  "description": "Admin dashboard implemented the CRUD with Student & Teacher Management. It contains Assigning Feature too. It can Create, Edit, Delete and Assign Student to Teacher as well as Teacher to Student. Currently not modified for small screens like Mobiles. View it in laptop screen.",
+  "siteLink": "https://tourmaline-gumdrop-6f0708.netlify.app/dashboard"
+},
+{
+  "id": "7",
   "imgUrl": "https://res.cloudinary.com/dgsucveh2/image/upload/v1702094196/Dictionary_jpde8n.png",
   "name": "SIMPLE DICTIONARY",
-  "description": "Simple Javascript Dictionary",
+  "description": "Simple Javascript Dictionary. Currently not modified for small screens like Mobiles. View it in laptop screen.",
   "siteLink": "https://deft-cassata-4b0352.netlify.app/"
 }
 ]
