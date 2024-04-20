@@ -1,166 +1,97 @@
 #certificate {
-    overflow: hidden;
-    height: calc(100vh - 4rem);
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 2rem;
-    margin: 0;
+	overflow: hidden;
+	height: calc(100vh - 4rem);
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 2rem;
+	margin: 0;
 }
 
 .certificateContainer {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 1rem;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 1rem;
 }
 
 .certificateBy {
-    height: 90%;
-    width: 25%;
-    margin-right: 1rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border: 2px solid rgb(193, 193, 193);
-    padding: 0 1rem;
-    overflow: hidden;
+	height: 90%;
+	width: 25%;
+	margin-right: 1rem;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	border: 2px solid rgb(193, 193, 193);
+	padding: 0 1rem;
+	overflow: hidden;
 }
 
 .certificateBy a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-.certificateBy a h1{
- color: yellow;
-    font-size: 2rem;
+.certificateBy a h1 {
+	color: yellow;
+	font-size: 2.5rem;
 }
 
-.certificateBy h4{
-    font-size: 1.5rem;
+.certificateBy h4 {
+	font-size: 1.5rem;
+}
+
+#refLink {
+	font-size: 1.5rem;
 }
 
 .certificateImg {
-    height: 90%;
-    width: 75%;
+	height: 90%;
+	width: 75%;
 }
 
 .certificateImg img {
-    height: 100%;
-    width: 100%;
-    margin: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
 }
 
-@media screen and (max-width : 420px) {
-    #certificate {
-        height: calc(100vh - 4rem);
-        padding: 0 1rem;
-    }
-    .certificateContainer {
-        flex-direction: column;
-        margin: 0;
-    }
-    .certificateBy {
-        height: 65%;
-        width: 100%;
-        margin-right: 0;
-        padding: 0 0.5rem;
-    }
-    
-    .certificateBy a {
-        text-decoration: none;
-    }
-    .certificateBy a h1 {
-        color: yellow;
-        font-size: calc(22px + 0.390625vw);
-    }
-    .certificateBy h4 {
-        font-size: calc(17px + 0.390625vw);
-        text-align: center;
-    }
-    
-    .certificateImg {
-        height: 30%;
-        width: 100%;
-        margin-bottom: 4.5rem;
-    }
-}
+@media screen and (max-width: 420px) {
+	#certificate {
+		height: calc(100vh - 4rem);
+		padding: 0 1rem;
+	}
+	.certificateContainer {
+		flex-direction: column;
+		margin: 0;
+	}
+	.certificateBy {
+		height: 65%;
+		width: 100%;
+		margin-right: 0;
+		padding: 0 0.5rem;
+	}
 
-/* TABLET */
-@media screen and (min-width: 420px) and (max-width:768px) {
-    .certificateBy a h1{
-        font-size: calc(21px + 0.390625vw);
-    }
-    .certificateBy h4{
-        font-size: calc(16px + 0.390625vw);
-    }
-    .refLink {
-        font-size: calc(12px + 0.390625vw);
-    }
-}
+	.certificateBy a {
+		text-decoration: none;
+	}
+	.certificateBy a h1 {
+		color: yellow;
+		font-size: calc(22px + 0.390625vw);
+	}
+	.certificateBy h4 {
+		font-size: calc(17px + 0.390625vw);
+		text-align: center;
+	}
 
-@media screen and (min-width: 768px) and (max-width:1024px) {
-    .certificateBy a h1{
-        font-size: calc(22px + 0.390625vw);
-    }
-    .certificateBy h4{
-        font-size: calc(17px + 0.390625vw);
-    }
-    .refLink {
-        font-size: calc(13px + 0.390625vw);
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width:1280px) {
-    .certificateBy a h1{
-        font-size: calc(23px + 0.390625vw);
-    }
-    .certificateBy h4{
-        font-size: calc(18px + 0.390625vw);
-    }
-    .refLink {
-        font-size: calc(14px + 0.390625vw);
-    }
-}
-
-@media only screen and (1280px <= width <= 1536px) {
-    .certificateBy a h1{
-        font-size: calc(24px + 0.390625vw);
-    }
-    .certificateBy h4{
-        font-size: calc(18px + 0.390625vw);
-    }
-    .refLink {
-        font-size: calc(15px + 0.390625vw);
-    }
-}
-
-@media only screen and (1536px <= width <= 1920px) {
-    .certificateBy a h1{
-        font-size: calc(28px + 0.390625vw);
-    }
-    .certificateBy h4{
-        font-size: calc(20px + 0.390625vw);
-    }
-    .refLink {
-        font-size: calc(16px + 0.390625vw);
-    }
-}
-
-@media only screen and (1920px <= width <= 2560px) {
-    .certificateBy a h1{
-        font-size: calc(33px + 0.390625vw);
-    }
-    .certificateBy h4{
-        font-size: calc(23px + 0.390625vw);
-    }
-    .refLink {
-        font-size: calc(18px + 0.390625vw);
-    }
+	.certificateImg {
+		height: 30%;
+		width: 100%;
+		margin-bottom: 4.5rem;
+	}
 }
