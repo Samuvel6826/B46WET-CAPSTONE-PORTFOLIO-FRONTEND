@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './navbar.css'
 // import Logo from '../../assets/logo.png'
 import {Link} from 'react-scroll'
-import samres from '../../.././Resume.pdf'
+// import samres from '../../.././Resume.pdf'
 // import { jsPDF } from "jspdf";
 // import Spinner from '../common/SpinnerComp'
 
@@ -32,20 +32,20 @@ function Navbar() {
 
   return <>
     <nav id="navbarr">
-          <a href='samtocode.in'>
+          <a href='samtocode24.in'>
             {/* <img src={Logo} alt="Logo" /> */}
             <h1 className='logo' >samtocode24</h1>
           </a>
         
         <div className="desktopMenu">
-            <Link activeclassname='active' to='intro' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Home</Link>
-            <Link activeclassname='active' to='certificate' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Certificate</Link>
-            <Link activeclassname='active' to='about' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">About</Link>
-            <Link activeclassname='active' to='projects' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Projects</Link>
-            <Link activeclassname='active' to='contact' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Contact</Link>
+            <Link activeclass='active' to='intro' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Home</Link>
+            <Link activeclass='active' to='certificate' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Certificate</Link>
+            <Link activeclass='active' to='about' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">About</Link>
+            <Link activeclass='active' to='projects' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Projects</Link>
+            <Link activeclass='active' to='contact' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Contact</Link>
         </div>
 
-        <a href={samres} target="blank" className='resumeBtn'>
+        <a href="https://drive.google.com/file/d/16yygIXDehEZYExWuYk0NQ8akR7f_XFVP/view?usp=sharing" target="blank" className='resumeBtn'>
           <img width="25" height="25" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nGNgGDGgZtPhozWbD/+H4EOHqW/BZpjhEDxqAQaoGQ2i4RdENZsP30M3FBeu3nT4LskWVG0+aFa96dBbghZsOvyhduMha/J8seGAYc2mw69wu/zQW5BDGCgBlZuOatRsPvwIi8ufVW4+qsNADVC95ah89abDt5AsuFe97YgyAzVB1faDktWbDx0DYRCbqoaPAjAA1VLEZqwaghhLjUdNC6o3HTqEYcGQBQBpY20z3xAnPQAAAABJRU5ErkJggg==" alt="download--v1" />
           Resume
         </a>
@@ -59,11 +59,12 @@ function Navbar() {
 
             <div className="navMenu" style={{display : showMenu? 'flex' : 'none'}}>
                 <div className="listItemCtn">
-                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
-                <Link activeClass='active' to='certificate' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Certificate</Link>
-                <Link activeClass='active' to='about' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
-                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
-                <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-50} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
+                <a activeclass='active' href='https://drive.google.com/file/d/16yygIXDehEZYExWuYk0NQ8akR7f_XFVP/view?usp=sharing' target='blank' className="listItem" onClick={()=>setShowMenu(false)}>Resume</a>
+                <Link activeclass='active' to='intro' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Home</Link>
+                <Link activeclass='active' to='certificate' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Certificate</Link>
+                <Link activeclass='active' to='about' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>About</Link>
+                <Link activeclass='active' to='projects' spy={true} smooth={true} offset={-64} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Projects</Link>
+                <Link activeclass='active' to='contact' spy={true} smooth={true} offset={-50} duration={25} className="listItem" onClick={()=>setShowMenu(false)}>Contact</Link>
                 </div>
             </div>
         </div>
