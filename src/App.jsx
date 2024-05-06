@@ -1,16 +1,16 @@
-import Navbar from "./components/navbar-Dir/Navbar"
-import Intro from './components/intro-Dir/Intro'
-import Certificate from "./components/certificate-Dir/Certificate"
-import About from './components/about-Dir/About'
-import Projects from './components/projects-Dir/Projects'
-import Contact from './components/contact-Dir/Contact'
+import Navbar from "./components/Navbar/Navbar"
+import Home from './components/Home/Intro'
+import Certificate from "./components/Certificate/Certificate"
+import About from './components/About/About'
+import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
 function App() {
   return <>
   <div className="app" id="report">
     <Navbar/>
-    <Intro/>
+    <Home/>
     <Certificate/>
     <About/>
     <Projects/>

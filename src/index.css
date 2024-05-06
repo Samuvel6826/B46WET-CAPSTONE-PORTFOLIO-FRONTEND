@@ -1,33 +1,39 @@
-*,*:before,*:after{
-    margin: 0px;
-    padding: 0px;
-    box-sizing:border-box;
-    background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  body {
-    background-color: rgb(24, 56, 70);
-    color: rgb(106, 181, 197);
-    overflow: hidden;
-    overflow-y: scroll;
-  }
-  
-  button, a, Link {
-    cursor: pointer;
-  }
-  
-  hr {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 1px solid grey;
-  }
-  
-  li,a{  
-    text-decoration: none;  
-  }
+/* Reset styles for all elements */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
 
-  h1 {
-    color: yellow;
-  }
+/* Apply styles to the body */
+body {
+  background-color: rgb(24, 56, 70);
+  color: rgb(106, 181, 197);
+  overflow: hidden;
+  overflow-y: scroll; /* Allow vertical scrolling */
+}
+
+/* Apply cursor pointer to clickable elements */
+button, a, Link {
+  cursor: pointer;
+}
+
+/* Style horizontal rule */
+hr {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid grey;
+}
+
+/* Remove default text decoration for links and list items */
+li, a {
+  text-decoration: none;
+}
+
+/* Style h1 elements */
+h1 {
+  color: yellow;
+}

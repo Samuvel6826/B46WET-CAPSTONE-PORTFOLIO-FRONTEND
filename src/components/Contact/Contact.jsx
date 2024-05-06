@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import './contact.css';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
-import Spinner from '../common/SpinnerComp'
+import Spinner from '../Common-Stuffs/SpinnerComp'
 
 function Contact() {
   const [loading,setLoading] = useState(false)

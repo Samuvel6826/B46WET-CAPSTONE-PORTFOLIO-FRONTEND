@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./projects.css";
-import Cards from "../cards-Dir/Cards";
+import Cards from "../Cards/Cards";
 import axios from "axios";
-import Spinner from "../common/SpinnerComp";
+import Spinner from "../Common-Stuffs/SpinnerComp";
 
 function Projects() {
 	const [projects, setProjects] = useState([]);
