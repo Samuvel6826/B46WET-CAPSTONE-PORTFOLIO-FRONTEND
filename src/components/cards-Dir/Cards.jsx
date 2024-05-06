@@ -1,26 +1,23 @@
-// import React from 'react';
+// Cards.jsx
+import React from 'react';
 import PropTypes from 'prop-types';
 import Button from 'react-bootstrap/Button';
 import './cards.css';
 
 function Cards({ imgUrl, name, description, siteLink }) {
   return (
-    <>
-      <div className='cardContainer'>
-        <div className='imgContainer'>
-          <img src={imgUrl} className='cardImg' alt='Card Image' />
-        </div>
-        <div className='cardBody'>
-          <div className='cardTitle'>{name}</div>
-          <div className='cardDesc'>
-            {description}
-          </div>
-          <a href={siteLink} target='_blank' rel='noopener noreferrer'>
-            <Button variant="primary" id='cardBtn'>Live Demo</Button>
-          </a>
-        </div>
+    <figure className='cardContainer'>
+      <div className='imgContainer'>
+        <img src={imgUrl} className='cardImg' alt={name} />
       </div>
-    </>
+      <figcaption className='cardBody'>
+        <h2 className='cardTitle'>{name}</h2>
+        <p className='cardDesc'>{description}</p>
+        <a href={siteLink} target='_blank' rel='noopener noreferrer'>
+          <Button variant="primary" className='cardBtn'>Live Demo</Button>
+        </a>
+      </figcaption>
+    </figure>
   );
 }
 

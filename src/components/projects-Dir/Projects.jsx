@@ -1,29 +1,30 @@
-import { useEffect, useState } from 'react'
-import './projects.css'
-import Cards from '../cards-Dir/Cards'
-import axios from 'axios';
-import Spinner from '../common/SpinnerComp'
+import { useEffect, useState } from "react";
+import "./projects.css";
+import Cards from "../cards-Dir/Cards";
+import axios from "axios";
+import Spinner from "../common/SpinnerComp";
 
 function Projects() {
+	const [projects, setProjects] = useState([]);
+	const [loading, setLoading] = useState(true);
 
-  const [projects,setProjects] = useState([])
-  const [loading,setLoading] = useState(true)
-  
-  let getProjects = async ()=> {
-    try {
-      let res = await axios.get(`${'https://b46wet-capstone-portfolio-backend.onrender.com/users'}`)
-      // console.log(res.data.data)
-      setProjects(res.data.data)
-      setLoading(false)
-    } catch (error) {
-      console.log(error)
-    }
-  }
-  useEffect (()=>{
-    getProjects()
-  },[])
+	let getProjects = async () => {
+		try {
+			let res = await axios.get(
+				`${"https://b46wet-capstone-portfolio-backend.onrender.com/users"}`
+			);
+			// console.log(res.data.data)
+			setProjects(res.data.data);
+			setLoading(false);
+		} catch (error) {
+			console.log(error);
+		}
+	};
+	useEffect(() => {
+		getProjects();
+	}, []);
 
-  return (
+	return (
 		<>
 			<section id="projects">
 				<h1 className="projectsTitle">My Projects</h1>
@@ -51,4 +52,4 @@ function Projects() {
 	);
 }
 
-export default Projects
+export default Projects;
