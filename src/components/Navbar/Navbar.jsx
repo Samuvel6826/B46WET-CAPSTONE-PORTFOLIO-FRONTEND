@@ -16,7 +16,7 @@ function Navbar() {
         <Link activeclass='active' to='certificate' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Certificate</Link>
         <Link activeclass='active' to='about' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Skills</Link>
         <Link activeclass='active' to='projects' spy={true} smooth={true} offset={-63} duration={25} className="desktopMenuListItem">Projects</Link>
-        <Link activeclass='active' to='footer' spy={true} smooth={true} offset={-40} duration={25} className="desktopMenuListItem">Contact</Link>
+        <Link activeclass='active' to='contact' spy={true} smooth={true} offset={-50} duration={25} className="desktopMenuListItem">Contact</Link>
       </div>
 
       <a href="https://drive.google.com/file/d/16yygIXDehEZYExWuYk0NQ8akR7f_XFVP/view?usp=sharing" target="blank" className='resumeBtn'>
