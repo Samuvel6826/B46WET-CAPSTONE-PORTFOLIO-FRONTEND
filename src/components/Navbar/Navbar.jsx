@@ -19,7 +19,7 @@ function Navbar() {
         <Link activeclass='active' to='contact' spy={true} smooth={true} offset={-50} duration={25} className="desktopMenuListItem">Contact</Link>
       </div>
 
-      <a href="https://drive.google.com/file/d/16yygIXDehEZYExWuYk0NQ8akR7f_XFVP/view?usp=sharing" target="blank" className='resumeBtn'>
+      <a href="https://drive.google.com/file/d/1RaVJu04Z-fqG1k0h5sXJ_gWzUNBZnyH6/view?usp=sharing" target="blank" className='resumeBtn'>
         <img width="25" height="25" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAr0lEQVR4nGNgGDGgZtPhozWbD/+H4EOHqW/BZpjhEDxqAQaoGQ2i4RdENZsP30M3FBeu3nT4LskWVG0+aFa96dBbghZsOvyhduMha/J8seGAYc2mw69wu/zQW5BDGCgBlZuOatRsPvwIi8ufVW4+qsNADVC95ah89abDt5AsuFe97YgyAzVB1faDktWbDx0DYRCbqoaPAjAA1VLEZqwaghhLjUdNC6o3HTqEYcGQBQBpY20z3xAnPQAAAABJRU5ErkJggg==" alt="download--v1" />
         Resume
       </a>
