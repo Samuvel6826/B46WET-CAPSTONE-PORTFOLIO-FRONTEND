@@ -134,7 +134,7 @@ function Contact() {
 
           <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img title='Linkedin' width="60" height="60" src="https://img.icons8.com/fluency/48/linkedin.png" alt="Linkedin" /></a>
 
-          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' width="50" height="50" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1705580884/github-mark-white_pzoseb.png" alt="github" /></a>
+          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' width="50" height="50" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1705580884/github-mark-white_pzoseb.png" id='gitHub' alt="github" /></a>
 
           <a href="mailto:samuvel6826@gmail.com" target='blank'><img title='Gmail' width="48" height="60" src="https://img.icons8.com/color/60/gmail-new.png" alt="Gmail" /></a>
 

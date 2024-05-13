@@ -108,7 +108,8 @@
   }
   
   .links {
-    width: 45rem;
+    width: 90vw;
+    max-width: 50rem;
     padding: 5px;
     margin: 30px;
     display: flex;
@@ -131,16 +132,30 @@
       margin-bottom: 0.5rem;
     }
 
+    .links {
+      width: 95vw;
+    }
+
     .links a img {
       height: 35px;
       width: 35px;
     }
+
+    #gitHub {
+      height: 28px;
+      width: 28px;
+    }
+    
     #telephone {
       height: 32px;
       width: 32px;
     }
   
     .mapContainer a img {
+      display: none;
+    }
+
+    .vl {
       display: none;
     }
   
