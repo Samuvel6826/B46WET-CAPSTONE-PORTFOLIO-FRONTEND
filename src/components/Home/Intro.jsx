@@ -22,13 +22,13 @@ function Intro() {
           <hr />
 
           <div className="introbtnCtn">
-            <Link to='projects' spy={true} smooth={true} offset={-80} duration={25}>
+            <Link to='projects' spy={true} smooth={true} offset={-63} duration={25}>
               <button className="desktopMenuBtn">
                 <img width="25" height="25" src="https://img.icons8.com/pastel-glyph/64/suitcase--v3.png" alt="suitcase--v3" /> My Works
               </button>
             </Link>
 
-            <Link to='contact' spy={true} smooth={true} offset={-60} duration={25}>
+            <Link to='contact' spy={true} smooth={true} offset={-50} duration={25}>
               <button className="desktopMenuBtn">
                 <img width="25" height="25" src="https://img.icons8.com/ios-filled/50/user-male-circle.png" alt="user-male-circle" /> Hire Me
               </button>

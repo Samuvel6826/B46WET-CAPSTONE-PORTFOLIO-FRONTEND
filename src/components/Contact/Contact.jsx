@@ -102,7 +102,7 @@ function Contact() {
               <textarea
                 rows="5"
                 className="msg"
-                placeholder='Please include as much detail as possible.'
+                placeholder='Please include as much detail as possible'
                 id='message'
                 name='message'
                 onChange={formikQuery.handleChange}
@@ -113,6 +113,8 @@ function Contact() {
             </div>
             <button type='submit' value='Send' className="submitBtn" disabled={loading}>{loading?<Spinner />:"Submit"}</button>
           </form>
+          
+          <div class="vl"></div>
 
           <div className='mapContainer'>
             <a href="https://maps.app.goo.gl/eFZ1WJYHYYLXTZ5d9" target="_blank" rel="noopener noreferrer">
@@ -122,21 +124,21 @@ function Contact() {
         </main>
 
         <div className="links">
-          <a href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img title='Whatsapp' width="48" height="48" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp" /></a>
+          <a href="https://wa.me/+919043251797?text=Hey%20Samuvel" target='blank'><img title='Whatsapp' width="60" height="60" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="Whatsapp" /></a>
           
-          <a href="https://www.instagram.com/mr_fun_factory_24/" target='blank'><img title='Instagram' width="48" height="48" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram" /></a>
+          <a href="https://www.instagram.com/mr_fun_factory_24/" target='blank'><img title='Instagram' width="60" height="60" src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Instagram" /></a>
 
-          <a href="https://www.facebook.com/samuvel68" target='blank'><img title='Meta' width="48" height="48" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Meta" className="link" /></a>
+          <a href="https://www.facebook.com/samuvel68" target='blank'><img title='Meta' width="60" height="60" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Meta" className="link" /></a>
 
-          <a href="https://twitter.com/samuvel6826" target='blank'><img title='X' width="48" height="48" src="https://img.icons8.com/color/48/twitter--v3.png" alt="X" /></a>
+          <a href="https://twitter.com/samuvel6826" target='blank'><img title='X' width="60" height="60" src="https://img.icons8.com/color/48/twitter--v3.png" alt="X" /></a>
 
-          <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img title='Linkedin' width="48" height="48" src="https://img.icons8.com/fluency/48/linkedin.png" alt="Linkedin" /></a>
+          <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img title='Linkedin' width="60" height="60" src="https://img.icons8.com/fluency/48/linkedin.png" alt="Linkedin" /></a>
 
-          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' className='skillsImg' width="40" height="40" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1705580884/github-mark-white_pzoseb.png" alt="github" /></a>
+          <a href="https://github.com/Samuvel6826" target='blank'><img title='GitHub' width="50" height="50" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1705580884/github-mark-white_pzoseb.png" alt="github" /></a>
 
-          <a href="mailto:samuvel6826@gmail.com" target='blank'><img title='Gmail' width="48" height="48" src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" /></a>
+          <a href="mailto:samuvel6826@gmail.com" target='blank'><img title='Gmail' width="48" height="60" src="https://img.icons8.com/color/60/gmail-new.png" alt="Gmail" /></a>
 
-          <a href="tel:+919043251797" target='blank'><img id='telephone' title='Phone Call' width="43" height="43" src="https://img.icons8.com/flat-round/64/phone.png" alt="Phone" /></a>
+          <a href="tel:+919043251797" target='blank'><img id='telephone' title='Click to call me' width="55" height="55" src="https://img.icons8.com/flat-round/64/phone.png" alt="Phone" /></a>
         </div>
 
 

@@ -28,11 +28,15 @@
   main {
     display: flex;
     padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
   }
   
   .mapContainer a img {
     width: 45vw;
     height: 500px;
+    border-radius: 0.5rem;
   }
   
   .contactForm {
@@ -71,7 +75,7 @@
   }
   
   .msg {
-    height: 125px;
+    height: 175px;
   }
   
   .require {
@@ -96,20 +100,21 @@
     width: 100%;
     padding: 0.75rem 3.5rem;
   }
-  
-  .links {
-    width: 90vw;
-    max-width: 30rem;
-    padding: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+  .vl {
+    border-left: 6px solid black;
+    margin: 0 12px 0 5px;
+    height: 100%;
   }
   
-
-  
-  img {
-    margin: 5px;
+  .links {
+    width: 45rem;
+    padding: 5px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
   }
   
   @media screen and (max-width:720px) {
