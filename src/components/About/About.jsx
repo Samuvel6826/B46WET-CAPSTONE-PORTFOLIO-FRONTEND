@@ -5,7 +5,9 @@ function About() {
   return <>
     <section id="about">
       <h1 className="aboutTitle">About/Skills</h1>
-      <div className="aboutContainer">
+
+<main className='aboutMain'>
+<div className="aboutContainer">
         <h2 className="aboutDesc">
 
           Welcome to my skills showcase! As a web developer, I Proficient in HTML, CSS, and JavaScript, I specialize in frontend development, ensuring visually stunning and intuitive user interfaces. Leveraging frameworks like Bootstrap and Tailwind CSS, I streamline the design process and deliver modern, responsive websites.
@@ -14,7 +16,7 @@ function About() {
 
           Furthermore, I have extensive experience with version control systems like Git and GitHub, ensuring efficient collaboration and code management. Additionally, I'm adept at deploying projects using platforms such as AWS, Netlify, and Render, enabling seamless deployment of web applications. Please find below the list of skills I possess.
         </h2>
-
+        </div>
         <div className="skillsContainer">
 
           <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target='blank'><img title='HTML' className='skillsImg' width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1" /></a>
@@ -53,7 +55,7 @@ function About() {
           <a href="https://app.netlify.com" target='blank'><img title='netlify' className='skillsImg netlify' width="90" height="48" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1714823239/Screenshot_2024-05-04_at_5.13.00_PM_ouxpj1.png" alt="netlify" /></a>
 
         </div>
-      </div>
+</main>
     </section>
   </>
 }
