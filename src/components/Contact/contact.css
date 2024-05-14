@@ -1,187 +1,234 @@
+/* General Styles */
 * {
-    padding: 0;
-  }
-  
-  #contact {
-    height: calc(100vh - 6rem);
-    width: 100vw;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 2rem;
-    margin: 0;
-  }
-  
+  padding: 0;
+}
+
+#contact {
+  height: calc(100vh - 6rem);
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.contactBorder {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 2px solid rgb(106, 181, 197);
+}
+
+.contactPageTitle {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.contactPageDesc {
+  font-size: medium;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: white;
+}
+
+main {
+  display: flex;
+  padding: 0;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form Styles */
+.contactForm {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  font-size: large;
+}
+
+.nameContainer, .mobileContainer, .emailContainer, .msgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  background: rgb(18, 27, 33);
+  padding: 0;
+}
+
+.name, .mobile, .email, .msg {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: rgb(18, 27, 33);
+  display: flex;
+}
+
+.msg {
+  height: 175px;
+}
+
+.require {
+  padding-right: 1rem;
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.textReq {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.submitBtn {
+  background: white;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0;
+  width: 100%;
+  padding: 0.75rem 3.5rem;
+}
+
+/* Map Styles */
+.mapContainer {
+  width: 45vw;
+  height: 97%;
+  border-radius: 0.5rem;
+}
+
+/* Social Links Styles */
+.links {
+  width: 90vw;
+  max-width: 40rem;
+  padding: 10px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid yellow;
+  border-radius: 0.5rem;
+}
+
+.vl {
+  border-left: 6px solid rgb(106, 181, 197);
+  margin: 0 12px 0 5px;
+  height: 100%;
+}
+
+@media screen and (max-width:720px) {
+  /* Responsive Styles */
+
   .contactPageTitle {
-    margin-top: 20px;
     font-size: 3rem;
   }
-  
+
   .contactPageDesc {
-    font-size: medium;
-    font-weight: 300;
-    margin-bottom: 1rem;
-    color: white;
+    font-size: small;
+    padding: 0 10px;
+    margin-bottom: 10px;
   }
-  
+
   main {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .mapContainer a img {
-    width: 45vw;
-    height: 500px;
-    border-radius: 0.5rem;
-  }
-  
-  .contactForm {
-    margin: 0.5rem;
-    display: flex;
+    height: 70%;
+    width: 80vw;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 45vw;
-    font-size: large;
   }
-  
-  .nameContainer, .mobileContainer, .emailContainer, .msgContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    border: none;
-    border-radius: 0.5rem;
-    margin-bottom: 2rem;
-    background: rgb(18, 27, 33);
-    padding: 0;
-  }
-  
-  .name, .mobile, .email, .msg {
-    width: 100%;
-    height: 100%;
+
+  .contactForm {
+    height: 80%;
+    width: 80vw;
+    font-size: 16px;
     margin: 0;
-    padding: 10px;
-    color:white;
+  }
+
+  .nameContainer,
+  .mobileContainer,
+  .emailContainer {
+    width: 100%;
+    height: 10%;
+    margin-bottom: 0.5rem;
+  }
+
+  .name,
+  .mobile,
+  .email {
+    width: 100%;
+    height: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
     border: none;
     border-radius: 0.5rem;
     background: rgb(18, 27, 33);
     display: flex;
   }
-  
+
+  .msgContainer {
+    height: 60%;
+    margin: 0;
+  }
+
   .msg {
-    height: 175px;
-  }
-  
-  .require {
-    padding-right: 1rem;
-    font-size: 14px;
-    margin-left: 10px;
-  }
-  
-  .textReq {
     height: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 2rem;
   }
-  
+
   .submitBtn {
-    background: white;
-    border: none;
-    border-radius: 0.5rem;
-    margin: 0;
     width: 100%;
-    padding: 0.75rem 3.5rem;
+    height: 10%;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .links {
+    width: 85vw;
+    padding: 5px;
+  }
+
+  .links a img {
+    height: 35px;
+    width: 35px;
+  }
+
+  #gitHub {
+    height: 28px;
+    width: 28px;
+  }
+
+  #telephone {
+    height: 32px;
+    width: 32px;
+  }
+
+  .mapContainer {
+    width: 100%;
+    height: 20%;
   }
 
   .vl {
-    border-left: 6px solid black;
-    margin: 0 12px 0 5px;
-    height: 100%;
+    display: none;
   }
-  
-  .links {
-    width: 90vw;
-    max-width: 50rem;
-    padding: 5px;
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  @media screen and (max-width:720px) {
-    #contact {
-      height: calc(100vh - 6rem);
-    }
-    .contactPageTitle {
-      font-size: 3rem;
-      margin: 0.5rem 0;
-    }
-    .contactPageDesc {
-      font-size: small;
-      padding: 0 10px;
-      margin-bottom: 0.5rem;
-    }
-
-    .links {
-      width: 95vw;
-    }
-
-    .links a img {
-      height: 35px;
-      width: 35px;
-    }
-
-    #gitHub {
-      height: 28px;
-      width: 28px;
-    }
-    
-    #telephone {
-      height: 32px;
-      width: 32px;
-    }
-  
-    .mapContainer a img {
-      display: none;
-    }
-
-    .vl {
-      display: none;
-    }
-  
-    .nameContainer, .mobileContainer, .emailContainer, .msgContainer {
-      margin-bottom: 1rem;
-    }
-  
-    .name, .mobile, .email, .msg {
-      width: 100%;
-      height: 40px;
-      margin: 0.5rem;
-      padding: 0.5rem 1rem;
-      color:white;
-      border: none;
-      border-radius: 0.5rem;
-      background: rgb(18, 27, 33);
-      display: flex;
-    }
-  
-    .msg {
-      height: 100px;
-    }
-  
-    .contactForm {
-      width: 90vw;
-      font-size: 16px;
-    }
-  }
-  
+}

@@ -17,7 +17,7 @@ function Intro() {
             MERN Stack Web Developer
           </h3>
           <p className="introPara">
-            I am a skilled and passionate web developer based in Kanyakumari, Tamil Nadu, India. With experience in creating visually appealing and user-friendly websites, I am seeking opportunities to further develop my skills and contribute to exciting projects. Whether it's crafting user-friendly designs or diving into backend development, I thrive on challenges and am committed to delivering high-quality results. Feel free to reach out if you have a project in mind or if you're interested in collaborating. I'm always eager to connect and discuss web development!
+          Welcome to my portfolio! Hailing from the beautiful coastal town of Kanyakumari, Tamil Nadu, India, I'm a passionate web developer and designer. Seeking an Assistant Web Developer role or internship to gain experience in a web development environment and contribute to progressive projects. Eager to leverage my beginner-level skills and thrive on challenges. I'm here to showcase my journey in web development. I'm always eager to connect and discuss web development!..Feel free to contact me.
           </p>
           <hr />
 

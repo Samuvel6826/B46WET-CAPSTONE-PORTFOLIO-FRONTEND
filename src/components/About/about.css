@@ -21,7 +21,7 @@
 .aboutContainer {
     background-color: rgb(225, 241, 255);
     color: black;
-    height: 37rem;
+    height: 80%;
     width: 95%;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
 .aboutDesc {
     width: 100%;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 2rem 2rem;
 }
 
@@ -67,7 +67,7 @@
         margin-bottom: 5rem;
     }
     .aboutDesc {
-        font-size: 1.2rem;
+        font-size: 0.7rem;
         margin: 0;
         padding: 1rem;
     }
