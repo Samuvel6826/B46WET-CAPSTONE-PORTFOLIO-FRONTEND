@@ -143,13 +143,11 @@ main {
     height: calc(100vh - 10rem);
 		padding: 0 1rem;
     width: 100vw;
-    background-color: blueviolet;
   }
 
   .contactBorder {
-    height: 80%;
+    height: 95%;
     width: 100%;
-    justify-content: start;
   }
 
   .contactPageTitle {
