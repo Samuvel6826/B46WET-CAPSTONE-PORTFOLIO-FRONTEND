@@ -10,11 +10,11 @@ function About() {
 <div className="aboutContainer">
         <h2 className="aboutDesc">
 
-          Welcome to my skills showcase! As a web developer, I Proficient in HTML, CSS, and JavaScript, I specialize in frontend development, ensuring visually stunning and intuitive user interfaces. Leveraging frameworks like Bootstrap and Tailwind CSS, I streamline the design process and deliver modern, responsive websites.
+          Welcome to my skills showcase! As a web developer, I Proficient in HTML, CSS, and JavaScript, I specialize in frontend development. Leveraging frameworks like Bootstrap and Tailwind CSS, I streamline the design process and deliver modern, responsive websites.
 
           In addition to my frontend proficiency, I'm well-versed in backend technologies, including Node.js, Express.js, and MongoDB. This enables me to develop robust and scalable web applications, handling everything from server-side logic to database management.
 
-          Furthermore, I have extensive experience with version control systems like Git and GitHub, ensuring efficient collaboration and code management. Additionally, I'm adept at deploying projects using platforms such as AWS, Netlify, and Render, enabling seamless deployment of web applications. Please find below the list of skills I possess.
+          Furthermore, I have extensive experience with version control systems like Git and GitHub, ensuring efficient collaboration and code management. Additionally, I'm adept at deploying projects using platforms such as Netlify, and Render, enabling seamless deployment of web applications. Please find below the list of skills I possess.
         </h2>
         </div>
         <div className="skillsContainer">
