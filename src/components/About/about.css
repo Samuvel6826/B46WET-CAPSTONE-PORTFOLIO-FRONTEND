@@ -61,7 +61,7 @@
     margin: 0.5rem;
 }
 
-@media screen and (max-width : 600px) {
+@media screen and (max-width : 720px) {
     #about {
         height: calc(100vh - 4rem);
         padding: 0 1rem;

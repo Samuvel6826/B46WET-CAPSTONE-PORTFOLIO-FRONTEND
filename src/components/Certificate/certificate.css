@@ -61,7 +61,7 @@
 	margin: 0;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 720px) {
 	#certificate {
 		height: calc(100vh - 4rem);
 		padding: 0 1rem;
