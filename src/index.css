@@ -1,5 +1,7 @@
 /* Reset styles for all elements */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,11 +14,14 @@ body {
   background-color: rgb(24, 56, 70);
   color: rgb(106, 181, 197);
   overflow: hidden;
-  overflow-y: scroll; /* Allow vertical scrolling */
+  overflow-y: scroll;
+  /* Allow vertical scrolling */
 }
 
 /* Apply cursor pointer to clickable elements */
-button, a, Link {
+button,
+a,
+Link {
   cursor: pointer;
 }
 
@@ -29,7 +34,8 @@ hr {
 }
 
 /* Remove default text decoration for links and list items */
-li, a {
+li,
+a {
   text-decoration: none;
 }
 

@@ -54,25 +54,30 @@
         margin: 0;
         padding: 0;
     }
+
     .cardBody {
         height: 60%;
         width: 100%;
         padding: 1rem;
         margin: 0;
     }
+
     .cardContainer {
         flex-direction: column;
         width: 90vw;
     }
+
     .cardTitle {
         font-size: 0.9rem;
         font-weight: 500;
         margin: 0;
     }
+
     .cardDesc {
         font-size: 0.7rem;
         font-weight: 300;
     }
+
     #cardBtn {
         height: 1rem;
         padding: 0.8rem;

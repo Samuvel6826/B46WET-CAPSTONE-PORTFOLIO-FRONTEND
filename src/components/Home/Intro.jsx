@@ -5,7 +5,7 @@ function Intro() {
   return (
     <>
       <div className='navHR_CTN'>
-        <hr className='navHR'/>
+        <hr className='navHR' />
       </div>
 
       <section id="intro">
@@ -17,7 +17,7 @@ function Intro() {
             MERN Stack Web Developer
           </h3>
           <p className="introPara">
-          Welcome to my portfolio! Hailing from the beautiful coastal town of Kanyakumari, Tamil Nadu, India, I'm a passionate web developer and designer. Seeking an Assistant Web Developer role or internship to gain experience in a web development environment and contribute to progressive projects. Eager to leverage my beginner-level skills and thrive on challenges. I'm here to showcase my journey in web development. I'm always eager to connect and discuss web development!..Feel free to contact me.
+            Welcome to my portfolio! Hailing from the beautiful coastal town of Kanyakumari, Tamil Nadu, India, I'm a passionate web developer and designer. Seeking an Assistant Web Developer role or internship to gain experience in a web development environment and contribute to progressive projects. Eager to leverage my beginner-level skills and thrive on challenges. I'm here to showcase my journey in web development. I'm always eager to connect and discuss web development!..Feel free to contact me.
           </p>
           <hr />
 
@@ -45,7 +45,7 @@ function Intro() {
                 alt="Front Avatar"
               />
             </div>
-            
+
             <div className="flip-dp-back">
               <img
                 className='dp-Pic'

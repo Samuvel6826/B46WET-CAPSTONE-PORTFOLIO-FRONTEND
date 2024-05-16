@@ -3,7 +3,7 @@ import Spinner from 'react-bootstrap/Spinner'
 
 function SpinnerComp() {
   return <>
-  <Spinner style={{margin:10}} animation="border" role="status">
+    <Spinner style={{ margin: 10 }} animation="border" role="status">
       <span className="visually-hidden">Loading...</span>
     </Spinner>
   </>

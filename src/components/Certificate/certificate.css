@@ -68,11 +68,13 @@
 		justify-content: start;
 
 	}
+
 	.certificateContainer {
 		flex-direction: column;
 		margin: 0;
 		justify-content: start;
 	}
+
 	.certificateBy {
 		height: 65%;
 		width: 100%;
@@ -83,10 +85,12 @@
 	.certificateBy a {
 		text-decoration: none;
 	}
+
 	.certificateBy a h1 {
 		color: yellow;
 		font-size: calc(22px + 0.390625vw);
 	}
+
 	.certificateBy h4 {
 		font-size: calc(17px + 0.390625vw);
 		text-align: center;

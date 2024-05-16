@@ -11,7 +11,7 @@ function Projects() {
 	let getProjects = async () => {
 		try {
 			let res = await axios.get(
-				`${"https://b46wet-capstone-portfolio-backend.onrender.com/users"}`
+				`${"https://b46wet-capstone-portfolio-backend.onrender.com/projects"}`
 			);
 			// console.log(res.data.data)
 			setProjects(res.data.data);

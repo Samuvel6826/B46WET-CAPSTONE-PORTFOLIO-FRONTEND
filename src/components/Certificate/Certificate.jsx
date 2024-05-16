@@ -2,7 +2,7 @@
 import './certificate.css'
 
 function Certificate() {
-  return (
+	return (
 		<>
 			<section id="certificate">
 				<div className="certificateContainer">
@@ -27,7 +27,7 @@ function Certificate() {
 			</section>
 		</>
 	);
-	
+
 }
 
 export default Certificate

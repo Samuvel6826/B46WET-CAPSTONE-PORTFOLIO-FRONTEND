@@ -97,16 +97,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Add position relative to allow absolute positioning of children */
+  position: relative;
+  /* Add position relative to allow absolute positioning of children */
 }
 
 .dp-Pic {
-  display: block; /* Ensure the image is displayed as a block element */
-  max-width: 100%; /* Limit the maximum width of the image to its container */
-  max-height: 100%; /* Limit the maximum height of the image to its container */
-  width: 100%; /* Allow the width of the image to adjust based on its height */
-  height: 100%; /* Allow the height of the image to adjust based on its width */
-  object-fit: contain; /* Ensure the image fits within the container while preserving its aspect ratio */
+  display: block;
+  /* Ensure the image is displayed as a block element */
+  max-width: 100%;
+  /* Limit the maximum width of the image to its container */
+  max-height: 100%;
+  /* Limit the maximum height of the image to its container */
+  width: 100%;
+  /* Allow the width of the image to adjust based on its height */
+  height: 100%;
+  /* Allow the height of the image to adjust based on its width */
+  object-fit: contain;
+  /* Ensure the image fits within the container while preserving its aspect ratio */
 }
 
 .flip-dp-inner {
@@ -124,7 +131,8 @@
   transform: rotateY(180deg);
 }
 
-.flip-dp-front, .flip-dp-back {
+.flip-dp-front,
+.flip-dp-back {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,7 +166,8 @@
   .dp-Pic {
     width: 55%;
     height: 100%;
-    object-fit: contain; /* Ensure the image fits within the container while preserving its aspect ratio */
+    object-fit: contain;
+    /* Ensure the image fits within the container while preserving its aspect ratio */
   }
 
   .flip-dp-inner {
@@ -171,7 +180,8 @@
     transform: rotateY(180deg);
   }
 
-  .flip-dp-front, .flip-dp-back {
+  .flip-dp-front,
+  .flip-dp-back {
     position: absolute;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -235,7 +245,7 @@
   }
 }
 
-@media only screen and (1500px <= width <= 2000px) {
+@media only screen and (1500px <=width <=2000px) {
 
   .introContent {
     font-size: 5.1rem;
