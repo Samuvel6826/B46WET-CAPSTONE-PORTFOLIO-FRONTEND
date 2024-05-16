@@ -1,44 +1,111 @@
+/* Entire CSS */
+
+.navHR_CTN {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navHR {
+  width: 95%;
+  margin: 0;
+  padding: 0;
+}
+
 #intro {
   height: calc(100vh - 4rem);
   width: 100vw;
   overflow: hidden;
   position: relative;
   display: flex;
-
   align-items: center;
   padding: 0 2rem;
   margin: 0;
 }
 
-.navHR_CTN {  
+.introContent {
+  height: 100%;
+  width: 60%;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 1rem 0 0;
+}
+
+.introContent hr {
+  margin: 1rem;
+}
+
+.hello {
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.introName {
+  font-size: 2em;
+  font-family: 'Aldrich', sans-serif;
+  color: white;
+}
+
+.introText {
+  font-size: 3.75rem;
+}
+
+.introPara {
+  font-size: large;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: justify;
+  margin: 0;
+}
+
+.desktopMenuBtn {
+  height: 2rem;
+  width: 10rem;
+  background: white;
+  color: black;
+  border: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-right: 1rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+}
+
+.introbtnCtn {
+  display: flex;
   width: 100%;
 }
 
-.navHR {
-  width: 95%;
+.desktopMenuBtn img {
+  margin: 0 5px 0 0;
 }
 
 .dp {
-   width: 40vw;
-   height: 100vh;
-   margin-bottom: 4rem;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   overflow: hidden;
+  width: 40%;
+  height: 100%;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Add position relative to allow absolute positioning of children */
 }
 
 .dp-Pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 500px;
-    padding: 0;
-    margin: 0;
+  display: block; /* Ensure the image is displayed as a block element */
+  max-width: 100%; /* Limit the maximum width of the image to its container */
+  max-height: 100%; /* Limit the maximum height of the image to its container */
+  width: 100%; /* Allow the width of the image to adjust based on its height */
+  height: 100%; /* Allow the height of the image to adjust based on its width */
+  object-fit: contain; /* Ensure the image fits within the container while preserving its aspect ratio */
 }
 
 .flip-dp-inner {
@@ -63,142 +130,93 @@
   position: absolute;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 50%;	
-  overflow: hidden;	
-  box-shadow: 0 5px 10px 0 rgb(23, 51, 79);
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .flip-dp-back {
   transform: rotateY(180deg);
 }
 
-.introContent {
-    height: 100%;
-    width: 60vw;
-    font-size: 6rem;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 1rem 0 0;
-}
-
-.introContent hr {
-  margin: 1rem;
-}
-
-.hello {
-    font-size: 3rem;
-    font-weight: 100;
-}
-
-.introName {
-    font-size: 5.5rem;
-    font-family: 'Aldrich', sans-serif;
-    color: white;
-}
-
-.introText {
-  font-size: 3.75rem;
-}
-
-.introPara {
-    font-size: large;
-    font-weight: 300;
-    letter-spacing: 1px;
-    text-align: justify;
-    margin: 0;
-}
-
-.desktopMenuBtn {
-  height: 2rem;
-  width: 10rem;
-  background: white;
-  color: black;
-  border: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1.5rem 0;
-  margin-right: 1rem;
-  border-radius: 2rem;
-  font-size: 1.3rem;
-}
-
-.introbtnCtn {
-  display: flex;
-  width: 100%;
-}
-.desktopMenuBtn img {
-  margin: 0 5px 0 0;
-}
-
-
-
 @media screen and (max-width: 720px) {
-    #intro {
-        height: calc(100vh - 4rem);
-        padding: 0 1rem;
-        flex-direction: column-reverse;
-      }
-    .dp {
-       height: 40%;
-       width: 100%;
-       margin-top: 6rem;
-       overflow: visible;
-    }
-    .dp-Pic {
-        height: auto;
-        width: 215px;
-    }
-    .flip-dp-inner {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .dp:hover .flip-dp-inner {
-        transform: rotateY(180deg);
-      }
-      
-      .flip-dp-front, .flip-dp-back {
-        position: absolute;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-      }
-      
-      .flip-dp-back {
-        transform: rotateY(180deg);
-      }
-    .introContent {
-        height: 60%;
-        width: 100%;
-        margin: 0 0 5rem 0;
-    }
-    .hello {
-        font-size: 1.2rem;
-    }
-    .introName {
-        font-size: 1.5rem;
-    }
-    .introText {
-        font-size: 1.4rem;
-        margin: 0 0 0.3rem 0;
-    }
-    .introPara {
-        font-size: small;
-        margin-bottom: 1rem;
-    }
-    .minus {
-        display: none;
-    } 
-    .introContent hr {
-        display: none;
-    }
-    .desktopMenuBtn {
-      display: flex;
+  #intro {
+    height: 100vh;
+    padding: 0 1rem;
+    margin-top: 0.5rem;
+    flex-direction: column-reverse;
+    justify-content: start;
   }
+
+  .dp {
+    height: 25%;
+    width: 100%;
+    margin: 0;
+    overflow: visible;
+  }
+
+  .dp-Pic {
+    width: 55%;
+    height: 100%;
+    object-fit: contain; /* Ensure the image fits within the container while preserving its aspect ratio */
+  }
+
+  .flip-dp-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dp:hover .flip-dp-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-dp-front, .flip-dp-back {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-dp-back {
+    transform: rotateY(180deg);
+  }
+
+  .introContent {
+    height: 75%;
+    width: 100%;
+    margin: 0;
+    justify-content: start;
+  }
+
+  .hello {
+    font-size: 1.2rem;
+  }
+
+  .introName {
+    font-size: 1.5rem;
+  }
+
+  .introText {
+    font-size: 1.4rem;
+    margin: 0 0 0.3rem 0;
+  }
+
+  .introPara {
+    font-size: small;
+    margin-bottom: 1rem;
+  }
+
+  .minus {
+    display: none;
+  }
+
+  .introContent hr {
+    display: none;
+  }
+
+  .desktopMenuBtn {
+    display: flex;
+  }
+
   .desktopMenuBtn {
     height: 2rem;
     width: 8rem;
@@ -207,7 +225,7 @@
     font-size: 0.9rem;
     margin: 0 5px;
   }
-  
+
   .introbtnCtn {
     width: 100%;
     justify-content: center;
@@ -215,9 +233,7 @@
 }
 
 @media only screen and (1500px <= width <= 2000px) {
-  .dp-Pic {
-    width: 525px;
-  }
+
   .introContent {
     font-size: 5.1rem;
   }
