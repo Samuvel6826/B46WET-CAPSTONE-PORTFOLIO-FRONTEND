@@ -22,7 +22,7 @@
   color: rgb(117, 117, 117);
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
 
   .footer {
     height: 3rem;

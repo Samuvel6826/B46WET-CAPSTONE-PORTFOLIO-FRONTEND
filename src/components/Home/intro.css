@@ -148,7 +148,7 @@
   transform: rotateY(180deg);
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   #intro {
     height: calc(100vh - 3.5rem);
     padding: 0 1rem;

@@ -38,7 +38,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:768px) {
     .projectsTitle {
         font-size: 2rem;
         margin: 0 0 1rem 0;
