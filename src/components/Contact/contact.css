@@ -40,6 +40,7 @@
 }
 
 main {
+  height: 73%;
   display: flex;
   padding: 0;
   margin-bottom: 10px;
@@ -49,6 +50,7 @@ main {
 
 /* Form Styles */
 .contactForm {
+  height: 100%;
   margin: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -119,7 +121,7 @@ main {
 /* Map Styles */
 .mapContainer {
   width: 45vw;
-  height: 97%;
+  height: 100%;
   border-radius: 0.5rem;
 }
 

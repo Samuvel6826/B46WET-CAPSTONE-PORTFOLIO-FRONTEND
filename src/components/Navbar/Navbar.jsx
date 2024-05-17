@@ -37,7 +37,7 @@ function Navbar() {
             <Link activeclass='active' to='certificate' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Certificate</Link>
             <Link activeclass='active' to='about' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Skills</Link>
             <Link activeclass='active' to='projects' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Projects</Link>
-            <Link activeclass='active' to='contact' spy={true} smooth={true} offset={-50} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
+            <Link activeclass='active' to='contact' spy={true} smooth={true} offset={-30} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Contact</Link>
           </div>
         </div>
       </div>

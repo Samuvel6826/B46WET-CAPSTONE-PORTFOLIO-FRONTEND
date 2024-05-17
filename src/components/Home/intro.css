@@ -43,22 +43,22 @@
 }
 
 .hello {
-  font-size: 1.2em;
+  font-size: 3vw;
   font-weight: 100;
 }
 
 .introName {
-  font-size: 2em;
+  font-size: 6vw;
   font-family: 'Aldrich', sans-serif;
   color: white;
 }
 
 .introText {
-  font-size: 3.75rem;
+  font-size: 4vw;
 }
 
 .introPara {
-  font-size: large;
+  font-size: 1.5vw;
   font-weight: 300;
   letter-spacing: 1px;
   text-align: justify;
@@ -66,8 +66,8 @@
 }
 
 .desktopMenuBtn {
-  height: 2rem;
-  width: 10rem;
+  height: 10%;
+  width: 100%;
   background: white;
   color: black;
   border: none;
@@ -75,15 +75,16 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 1.5rem 0;
-  margin-right: 1rem;
+  padding: 1.3rem 0;
+  margin-right: 2rem;
   border-radius: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.5vw;
 }
 
 .introbtnCtn {
   display: flex;
   width: 100%;
+  gap: 1rem;
 }
 
 .desktopMenuBtn img {
