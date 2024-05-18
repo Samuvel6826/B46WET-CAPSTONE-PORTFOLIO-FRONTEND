@@ -158,8 +158,8 @@
   }
 
   .dp {
-    height: 25%;
-    width: 100%;
+    height: 15%;
+    width: 75%;
     margin: 1rem;
     overflow: visible;
   }
@@ -193,7 +193,7 @@
   }
 
   .introContent {
-    height: 75%;
+    height: auto;
     width: 100%;
     margin: 0;
     justify-content: start;
@@ -215,8 +215,8 @@
   .introPara {
     font-size: medium;
     font-weight: 500;
-    line-height: 0.5cm;
-    margin-bottom: 1rem;
+    line-height: 0.55cm;
+    margin-bottom: 0.5rem;
   }
 
   .minus {

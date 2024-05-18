@@ -44,7 +44,7 @@
     width: 100%;
     font-weight: 300;
     font-size: 2.2vw;
-    line-height: 5.5vh;
+    line-height: 5vh;
     margin: 0;
 }
 
@@ -60,15 +60,15 @@
 }
 
 .skillsImg {
-    height: 4vw;
-    width: 4vw;
-    margin: 0;
+    height: 5vw;
+    width: 5vw;
+    margin: 0.5rem 1rem;
     padding: 0;
 }
 
 .netlify {
-    height: 4vw;
-    width: 6vw;
+    height: 5vw;
+    width: 7vw;
 }
 
 @media screen and (max-width : 768px) {
@@ -87,27 +87,25 @@
     }
 
     .aboutDesc {
-        font-size: 4vw;
+        font-size: 4.35vw;
         font-weight: 300;
         margin: 0;
-        padding: 10px;
-        line-height: 0.52cm;
+        line-height: 0.55cm;
     }
 
     .aboutMain {
         height: 88%;
-        width: 90vw;
+        padding: 1rem;
         border-radius: 0.5rem;
     }
 
     .skillsImg {
-        height: 10vw;
-        width: 10vw;
-        margin: 0;
+        height: 13vw;
+        width: 13vw;
     }
 
     .netlify {
-        height: 10vw;
-        width: 20vw;
+        height: 13vw;
+        width: 22vw;
     }
 }

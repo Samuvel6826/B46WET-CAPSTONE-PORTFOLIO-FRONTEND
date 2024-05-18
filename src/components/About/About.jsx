@@ -16,7 +16,12 @@ function About() {
             Furthermore, I have extensive experience with version control systems like Git and GitHub, ensuring efficient collaboration and code management. Additionally, I'm adept at deploying projects using platforms such as Netlify, and Render, enabling seamless deployment of web applications. Please find below the list of skills I possess.
           </h2>
         </div>
-        <div className="skillsContainer">
+        <marquee
+          className="skillsContainer"
+          bgcolor="#8cecff"
+          direction="left"
+          scrollamount="18"
+        >
 
           <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target='blank'><img title='HTML' className='skillsImg' width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1" /></a>
 
@@ -34,7 +39,7 @@ function About() {
 
           <a href="https://expressjs.com/" target='blank'><img title='Express-Node.js' className='skillsImg' width="48" height="48" src="https://img.icons8.com/ios/50/express-js.png" alt="express-js" /></a>
 
-          <a href="https://www.mysql.com/downloads/" target='blank'><img title='MySQL' className='skillsImg' width="60" height="60" src="https://img.icons8.com/color/96/000000/mysql-logo.png" alt="mysql-logo" /></a>
+          <a href="https://www.mysql.com/downloads/" target='blank'><img title='MySQL' className='netlify' width="60" height="60" src="https://img.icons8.com/color/96/000000/mysql-logo.png" alt="mysql-logo" /></a>
 
           <a href="https://www.mongodb.com/" target='blank'><img title='MongoDB' className='skillsImg' width="48" height="48" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb" /></a>
 
@@ -53,7 +58,7 @@ function About() {
 
           <a href="https://app.netlify.com" target='blank'><img title='netlify' className='skillsImg netlify' width="90" height="48" src="https://res.cloudinary.com/dgsucveh2/image/upload/v1714823239/Screenshot_2024-05-04_at_5.13.00_PM_ouxpj1.png" alt="netlify" /></a>
 
-        </div>
+        </marquee>
       </main>
     </section>
   </>
