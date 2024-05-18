@@ -25,18 +25,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     text-align: center;
     background-color: rgb(225, 241, 255);
 }
 
 .aboutContainer {
-    height: 80%;
     color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: justify;
 }
 
@@ -44,8 +42,8 @@
     width: 100%;
     font-weight: 300;
     font-size: 2.2vw;
-    line-height: 1.25cm;
-    padding: 2rem 2rem 1rem 2rem;
+    line-height: 1.2cm;
+    padding: 0 2rem 1rem 2rem;
     margin: 0;
 }
 
@@ -57,11 +55,19 @@
     justify-content: space-between;
     border: 2px solid black;
     border-radius: 1rem;
-    padding: 0;
+    padding: 0.5rem;
 }
 
 .skillsImg {
-    margin: 0.2rem 0.5rem;
+    height: 4vw;
+    width: 4vw;
+    margin: 0;
+    padding: 0;
+}
+
+.netlify {
+    height: 4vw;
+    width: 6vw;
 }
 
 @media screen and (max-width : 768px) {
@@ -80,11 +86,11 @@
     }
 
     .aboutDesc {
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: 4vw;
+        font-weight: 300;
         margin: 0;
         padding: 10px;
-        line-height: 0.47cm;
+        line-height: 0.52cm;
     }
 
     .aboutMain {
@@ -94,12 +100,13 @@
     }
 
     .skillsImg {
-        height: 30px;
-        width: 30px;
+        height: 10vw;
+        width: 10vw;
+        margin: 0;
     }
 
     .netlify {
-        height: 30px;
-        width: 70px;
+        height: 10vw;
+        width: 20vw;
     }
 }

@@ -53,10 +53,13 @@ function Contact() {
     <>
       <section id="contact">
         <div className='contactBorder'>
+          
+          <header className='contactHeader'>
           <h1 className="contactPageTitle">Contact Me</h1>
-          <span className="contactPageDesc">Please fill out the form below to discuss any work opportunities.</span>
+          <h5 className="contactPageDesc">Please fill out the form below to discuss any work opportunities.</h5>
+          </header>
 
-          <main>
+          <main className='contactMain'>
             <form id="contactForm" className="contactForm" ref={formRef} onSubmit={formikQuery.handleSubmit}>
               <div className='nameContainer'>
                 <input
@@ -103,14 +106,14 @@ function Contact() {
                 <textarea
                   rows="5"
                   className="msg"
-                  placeholder='Please include as much detail as possible'
+                  placeholder='Let me know how I can assist you'
                   id='message'
                   name='message'
                   onChange={formikQuery.handleChange}
                   onBlur={formikQuery.handleBlur}
                   value={formikQuery.values.message}>
                 </textarea>
-                {formikQuery.touched.message && formikQuery.errors.message ? <div className='require textReq' style={{ color: "red" }}>*{formikQuery.errors.message}</div> : <></>}
+                {formikQuery.touched.message && formikQuery.errors.message ? <div className='require' style={{ color: "red" }}>*{formikQuery.errors.message}</div> : <></>}
               </div>
               <button type='submit' value='Send' className="submitBtn" disabled={loading}>{loading ? <Spinner /> : "Submit"}</button>
             </form>
@@ -139,7 +142,7 @@ function Contact() {
 
             <a href="https://www.facebook.com/samuvel68" target='blank'><img title='Meta' width="50" height="50" src="https://img.icons8.com/fluency/48/facebook-new.png" alt="Meta" className="link" /></a>
 
-            <a href="https://twitter.com/samuvel6826" target='blank'><img title='X' width="50" height="50" src="https://img.icons8.com/color/48/twitter--v3.png" alt="X" /></a>
+            <a href="https://x.com/samuvel6826" target='blank'><img title='X' width="50" height="50" src="https://i.pinimg.com/564x/cc/31/6f/cc316f97197528e5e26e613a93ab16a4.jpg" alt="X" /></a>
 
             <a href="https://www.linkedin.com/in/samuvelantony/" target='blank'><img title='Linkedin' width="50" height="50" src="https://img.icons8.com/fluency/48/linkedin.png" alt="Linkedin" /></a>
 

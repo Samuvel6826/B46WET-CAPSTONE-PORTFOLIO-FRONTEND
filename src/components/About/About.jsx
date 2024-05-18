@@ -9,7 +9,6 @@ function About() {
       <main className='aboutMain'>
         <div className="aboutContainer">
           <h2 className="aboutDesc">
-
             Welcome to my skills showcase! As a web developer, I Proficient in HTML, CSS, and JavaScript, I specialize in frontend development. Leveraging frameworks like Bootstrap and Tailwind CSS, I streamline the design process and deliver modern, responsive websites.
 
             In addition to my frontend proficiency, I'm well-versed in backend technologies, including Node.js, Express.js, and MongoDB. This enables me to develop robust and scalable web applications, handling everything from server-side logic to database management.
