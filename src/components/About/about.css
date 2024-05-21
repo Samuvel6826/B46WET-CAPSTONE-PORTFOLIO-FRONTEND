@@ -75,6 +75,7 @@
     #about {
         height: calc(100vh - 3.5rem);
         padding: 0 1rem;
+        justify-content: start;
     }
 
     .aboutTitle {
@@ -94,7 +95,7 @@
     }
 
     .aboutMain {
-        height: 88%;
+        height: 85%;
         padding: 1rem;
         border-radius: 0.5rem;
     }

@@ -71,6 +71,7 @@
 	}
 
 	.certificateContainer {
+		height: 96%;
 		flex-direction: column;
 		margin: 0;
 		justify-content: start;
