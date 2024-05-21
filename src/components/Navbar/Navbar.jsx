@@ -32,7 +32,7 @@ function Navbar() {
 
         <div className="navMenu" style={{ display: showMenu ? 'flex' : 'none' }}>
           <div className="listItemCtn">
-            <a activeclass='active' href='https://drive.google.com/file/d/16yygIXDehEZYExWuYk0NQ8akR7f_XFVP/view?usp=sharing' target='blank' className="listItem" onClick={() => setShowMenu(false)}>Resume</a>
+            <a activeclass='active' href='https://drive.google.com/file/d/1RaVJu04Z-fqG1k0h5sXJ_gWzUNBZnyH6/view?usp=sharing' target='blank' className="listItem" onClick={() => setShowMenu(false)}>Resume</a>
             <Link activeclass='active' to='intro' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Home</Link>
             <Link activeclass='active' to='certificate' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Certificate</Link>
             <Link activeclass='active' to='about' spy={true} smooth={true} offset={-65} duration={25} className="listItem" onClick={() => setShowMenu(false)}>Skills</Link>
